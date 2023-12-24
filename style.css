@@ -12,33 +12,35 @@
     position: absolute;
     top: 10px;
     left: 10px;
+    z-index: 2;
 }
 
 .navicon {
-    background-color: black;
-    height: 3px;
+   background-color: black;
+    height: 2px; /* 線の太さを2pxに */
     width: 100%;
     display: block;
     position: relative;
-    top: 18px;
+    transition: background 0s ease-out 0.2s;
 }
 
 .navicon:before,
 .navicon:after {
-    content: '';
+   content: '';
     background-color: black;
-    height: 3px;
+    height: 2px; /* 線の太さを2pxに */
     width: 100%;
     display: block;
     position: absolute;
+    transition: transform 0.2s ease-out;
 }
 
 .navicon:before {
-    top: -10px;
+    top: 11px; /* 線間の間隔を11pxに */
 }
 
 .navicon:after {
-    bottom: -10px;
+    bottom: 11px; /* 線間の間隔を11pxに */
 }
 
 .menu-overlay {
@@ -81,6 +83,41 @@
     .hamburger-menu {
         display: none;
     }
+}
+
+/* 閉じるボタンのスタイル */
+.close-btn {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+/* メニューを閉じる際の動作 */
+.menu-overlay ul li a,
+.close-btn {
+    transition: opacity 0.3s;
+}
+
+#menu-toggle:checked + .menu-icon + .menu-overlay .close-btn,
+#menu-toggle:checked + .menu-icon + .menu-overlay ul li a {
+    opacity: 1;
+}
+
+/* チェックボックスがチェックされた時のスタイル */
+#menu-toggle:checked + .menu-icon .navicon {
+    background: transparent; /* 中央の線を透明に */
+}
+
+#menu-toggle:checked + .menu-icon .navicon:before {
+    transform: translateY(11px) rotate(45deg);
+}
+
+#menu-toggle:checked + .menu-icon .navicon:after {
+    transform: translateY(-11px) rotate(-45deg);
 }
 
 
