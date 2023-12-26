@@ -73,7 +73,7 @@ a {
         position: relative;
         display: flex;
         width: 80vw;
-        height: 70vh;
+        height: 50vh;
         margin: 0 auto;
         margin-top: 30vh;
         z-index: 10;
@@ -95,12 +95,16 @@ a {
         margin-left: 7vw;
     }
 
+    .header {
+        opacity: 0;
+    }
+
     .date {
         position: absolute;
         color: #000;
         font-size: 32px;
         left: 10vw;
-        bottom: 20vh;
+        bottom: 17.5vh;
     }
 
     .week {
