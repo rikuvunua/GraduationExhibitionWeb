@@ -1,90 +1,213 @@
-.section-01 {
-    background-color: #E73828;
-  background-image: 
-    radial-gradient(closest-side, rgba(233, 85, 19, 1),
-    rgba(233, 85, 19, 0)),
-    radial-gradient(closest-side, rgba(233, 85, 19, 1),
-    rgba(233, 85, 19, 0)),
-    radial-gradient(closest-side, rgba(98, 185, 192, 1),
-  rgba(98, 185, 192, 0)),
-    radial-gradient(closest-side, rgba(44, 166, 224, 1),
-  rgba(44, 166, 224, 0)),
-    radial-gradient(closest-side, rgba(44, 166, 224, 1),
-  rgba(44, 166, 224, 0));
-  background-size: 
-    130vmax 130vmax,
-    80vmax 80vmax,
-    90vmax 90vmax,
-    110vmax 110vmax,
-    90vmax 90vmax;
-  background-position: 
-    -80vmax -80vmax,
-    60vmax -30vmax,
-    10vmax 10vmax,
-    -30vmax 10vmax,
-    30vmax -30vmax;
-  background-repeat: no-repeat;
-  animation: 10s movement linear infinite;
-}
-
-@keyframes movement {
-    0%, 100% {
-      background-size: 
-      1300vmax 1300vmax,
-      80vmax 80vmax,
-      90vmax 90vmax,
+@media screen and (min-width : 1025px) {
+  .section-01 {
+    background-color: #EA5513;
+    background-image:
+      radial-gradient(closest-side, rgba(44, 166, 224, 1),
+        rgba(44, 166, 224, 0)),
+      radial-gradient(closest-side, rgba(98, 185, 192, 1),
+        rgba(98, 185, 192, 0)),
+      radial-gradient(closest-side, rgba(98, 185, 192, 1),
+        rgba(98, 185, 192, 0)),
+      radial-gradient(closest-side, rgba(98, 185, 192, 1),
+        rgba(98, 185, 192, 0)),
+      radial-gradient(closest-side, rgba(231, 56, 40, 1),
+        rgba(231, 56, 40, 0)),
+      radial-gradient(closest-side, rgba(231, 56, 40, 1),
+        rgba(231, 56, 40, 0));
+    background-size:
       110vmax 110vmax,
-      90vmax 90vmax;
-    background-position: 
-      -80vmax -80vmax,
-      60vmax -30vmax,
-      10vmax 10vmax,
-      -30vmax 10vmax,
-      30vmax -30vmax;
-    }
-    
-    25% {
-      background-size: 
-      1000vmax 1000vmax,
-      90vmax 90vmax,
-      100vmax 100vmax,
-      90vmax 90vmax,
-      60vmax 60vmax;
-    background-position: 
-      -60vmax -90vmax,
-      50vmax -40vmax,
-      0vmax -20vmax,
-      -40vmax -20vmax,
-      40vmax 60vmax;
-    }
-    
-    50% {
-      background-size: 
-      800vmax 800vmax,
-      90vmax 90vmax,
-      100vmax 100vmax,
-      90vmax 90vmax,
-      60vmax 60vmax;
-    background-position: 
-      -50vmax -70vmax,
-      40vmax -30vmax,
-      10vmax 0vmax,
-      20vmax 10vmax,
-      30vmax 70vmax;
-    }
-    
-    75% {
-      background-size: 
-      900vmax 900vmax,
-      90vmax 90vmax,
-      100vmax 100vmax,
-      90vmax 90vmax,
+      40vmax 40vmax,
+      30vmax 30vmax,
+      60vmax 60vmax,
+      30vmax 30vmax,
       70vmax 70vmax;
-    background-position: 
-      -500vmax -400vmax,
-      50vmax -30vmax,
-      20vmax 0vmax,
-      -10vmax 10vmax,
-      40vmax 60vmax;
+    background-position:
+      20vmax -45vmax,
+      80vmax -10vmax,
+      30vmax -15vmax,
+      0vmax 25vmax,
+      50vmax 0vmax,
+      -20vmax -10vmax;
+    background-repeat: no-repeat;
+    animation: 10s movement linear infinite;
+  }
+
+  @keyframes movement {
+
+    0%,
+    100% {
+      background-size:
+        110vmax 110vmax,
+        40vmax 40vmax,
+        30vmax 30vmax,
+        60vmax 60vmax,
+        30vmax 30vmax,
+        70vmax 70vmax;
+      background-position:
+        20vmax -45vmax,
+        80vmax -10vmax,
+        30vmax -15vmax,
+        0vmax 25vmax,
+        50vmax 0vmax,
+        -20vmax -10vmax;
+    }
+
+    25% {
+      background-size:
+        120vmax 120vmax,
+        50vmax 50vmax,
+        20vmax 20vmax,
+        60vmax 60vmax,
+        30vmax 30vmax,
+        70vmax 70vmax;
+      background-position:
+        10vmax -35vmax,
+        80vmax -10vmax,
+        25vmax -10vmax,
+        -10vmax 15vmax,
+        50vmax 0vmax,
+        -20vmax -10vmax;
+    }
+
+    50% {
+      background-size:
+        90vmax 90vmax,
+        75vmax 75vmax,
+        45vmax 45vmax,
+        60vmax 60vmax,
+        30vmax 30vmax,
+        70vmax 70vmax;
+      background-position:
+        5vmax -25vmax,
+        80vmax -10vmax,
+        15vmax -15vmax,
+        -20vmax 10vmax,
+        50vmax 0vmax,
+        -20vmax -10vmax;
+    }
+
+    75% {
+      background-size:
+        100vmax 100vmax,
+        50vmax 50vmax,
+        20vmax 20vmax,
+        60vmax 60vmax,
+        30vmax 30vmax,
+        70vmax 70vmax;
+      background-position:
+        10vmax -35vmax,
+        80vmax -10vmax,
+        25vmax -10vmax,
+        -10vmax 15vmax,
+        50vmax 0vmax,
+        -20vmax -10vmax;
     }
   }
+}
+
+@media screen and (max-width : 1024px) {
+  .section-01 {
+    background-color: #EA5513;
+    background-image:
+      radial-gradient(closest-side, rgba(44, 166, 224, 1),
+        rgba(44, 166, 224, 0)),
+      radial-gradient(closest-side, rgba(98, 185, 192, 1),
+        rgba(98, 185, 192, 0)),
+      radial-gradient(closest-side, rgba(98, 185, 192, 1),
+        rgba(98, 185, 192, 0)),
+      radial-gradient(closest-side, rgba(98, 185, 192, 1),
+        rgba(98, 185, 192, 0)),
+      radial-gradient(closest-side, rgba(231, 56, 40, 1),
+        rgba(231, 56, 40, 0)),
+      radial-gradient(closest-side, rgba(231, 56, 40, 1),
+        rgba(231, 56, 40, 0));
+    background-size:
+      110vmax 110vmax,
+      40vmax 40vmax,
+      30vmax 30vmax,
+      60vmax 60vmax,
+      30vmax 30vmax,
+      70vmax 70vmax;
+    background-position:
+      -10vmax 20vmax,
+      20vmax 80vmax,
+      30vmax 35vmax,
+      -30vmax 5vmax,
+      20vmax 50vmax,
+      10vmax -20vmax;
+    background-repeat: no-repeat;
+    animation: 10s movement linear infinite;
+  }
+
+  @keyframes movement {
+
+    0%,
+    100% {
+      background-size:
+        110vmax 110vmax,
+        40vmax 40vmax,
+        30vmax 30vmax,
+        60vmax 60vmax,
+        30vmax 30vmax,
+        70vmax 70vmax;
+      background-position:
+        -10vmax 20vmax,
+        20vmax 80vmax,
+        30vmax 35vmax,
+        -30vmax 5vmax,
+        20vmax 50vmax,
+        10vmax -20vmax;
+    }
+
+    25% {
+      background-size:
+        120vmax 120vmax,
+        50vmax 50vmax,
+        20vmax 20vmax,
+        60vmax 60vmax,
+        30vmax 30vmax,
+        70vmax 70vmax;
+      background-position:
+        -15vmax 15vmax,
+        20vmax 80vmax,
+        25vmax 30vmax,
+        -20vmax -5vmax,
+        20vmax 50vmax,
+        10vmax -30vmax;
+    }
+
+    50% {
+      background-size:
+        90vmax 90vmax,
+        75vmax 75vmax,
+        45vmax 45vmax,
+        60vmax 60vmax,
+        30vmax 30vmax,
+        70vmax 70vmax;
+      background-position:
+        -20vmax 10vmax,
+        20vmax 80vmax,
+        20vmax 25vmax,
+        -15vmax -10vmax,
+        20vmax 50vmax,
+        10vmax -35vmax;
+    }
+
+    75% {
+      background-size:
+        100vmax 100vmax,
+        50vmax 50vmax,
+        20vmax 20vmax,
+        60vmax 60vmax,
+        30vmax 30vmax,
+        70vmax 70vmax;
+      background-position:
+        -15vmax 15vmax,
+        20vmax 80vmax,
+        25vmax 30vmax,
+        -20vmax -5vmax,
+        20vmax 50vmax,
+        10vmax -30vmax;
+    }
+  }
+}
