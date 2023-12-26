@@ -1,44 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>武蔵野美術大学デザイン情報学科 卒業・修了制作展2023</title>
 
-<!-- reset.css modern-css-reset・リセットcss記述 -->
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/modern-css-reset/dist/reset.min.css"/>
-<link rel="stylesheet" href="style.css">
+    <!-- reset.css modern-css-reset・リセットcss記述 -->
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
 
-<!-- グラデーションを引用する -->
-<link rel="stylesheet" href="gradient.css"> 
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="CSS/font.css">
+    <link rel="stylesheet" href="CSS/gradient.css">
 
 </head>
 
 <header>
- <div class="hamburger-menu">
-    <input type="checkbox" id="menu-toggle" />
-    <label for="menu-toggle" class="menu-icon">
-        <span class="navicon"></span>
-    </label>
-    <div class="menu-overlay">
-    <label for="menu-toggle" class="close-btn"></label>
-    <ul>
-        <li><a href="#">ホーム</a></li>
-        <li><a href="#">サービス</a></li>
-        <li><a href="#">コンタクト</a></li>
-        <!-- その他のメニュー項目 -->
-    </ul>
-</div>
-</div>
+    <div class="hamburger-menu">
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
+            <span class="navicon"></span>
+        </label>
+        <div class="menu-overlay">
+            <label for="menu-toggle" class="close-btn"></label>
+            <ul>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">サービス</a></li>
+                <li><a href="#">コンタクト</a></li>
+                <!-- その他のメニュー項目 -->
+            </ul>
+        </div>
+    </div>
 </header>
 
 <body>
     <div class="container">
-        <div class="section section-01"></div>
+        <nav class="menu dazzle">
+            <ul>
+                <li><a href="#">项目1</a></li>
+                <li><a href="#">项目2</a></li>
+                <li><a href="#">项目3</a></li>
+                <li><a href="#">项目4</a></li>
+                <li><a href="#">项目5</a></li>
+            </ul>
+        </nav>
+        <div class="section section-01">
+            <svg class="title">
+                <image xlink:href="SVG/title.svg" />
+            </svg>
+        </div>
         <div class="section section-02">GitHubTest2</div>
         <div class="section section-03">テスト</div>
         <div class="section section-04">ヒカルんん</div>
@@ -47,8 +59,8 @@
         <div class="section section-07">7</div>
     </div>
 
-
-
+    <!-- JavaScript -->
     <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
