@@ -54,8 +54,15 @@
     }
 }
 
+/* AdobeFont */
 .dazzle-font {
     font-family: dazzle-unicase, sans-serif;
     font-style: normal;
     font-weight: 200;
+}
+
+.futura-font {
+    font-family: futura-pt-condensed, sans-serif;
+    font-style: normal;
+    font-weight: 500;
 }
