@@ -20,47 +20,66 @@
 
 </head>
 
-<header>
-    <div class="hamburger-menu">
-        <input type="checkbox" id="menu-toggle" />
-        <label for="menu-toggle" class="menu-icon">
-            <span class="navicon"></span>
-        </label>
-        <div class="menu-overlay">
-            <label for="menu-toggle" class="close-btn"></label>
-            <ul>
-                <li><a href="#">ホーム</a></li>
-                <li><a href="#">サービス</a></li>
-                <li><a href="#">コンタクト</a></li>
-                <!-- その他のメニュー項目 -->
+<header class="header">
+    <div class="nav">
+        <input id="drawer-input" class="drawer-hidden" type="checkbox">
+        <label for="drawer-input" class="drawer-open"><span></span></label>
+
+        <nav class="nav-content">
+            <ul class="nav-list mb101pr5db-font">
+                <li class="nav-item"><a href="">トップ</a></li>
+                <li class="nav-item"><a href="">「ほどける」とは</a></li>
+                <li class="nav-item"><a href="">作品一覧</a></li>
+                <li class="nav-item"><a href="">フロアマップ</a></li>
+                <li class="nav-item"><a href="">開催概要</a></li>
+                <li class="nav-item"><a href="">アクセス</a></li>
+                <li class="nav-item icon">
+                    <a href="" class="icon-instagram">
+                        <img src="assets/images/icon_instagram.png" alt="">
+                    </a>
+                    <a href="" class="icon-x">
+                        <img src="assets/images/icon_x.png" alt="">
+                    </a>
+                </li>
+
+                <svg class="title menu-title">
+                    <image xlink:href="assets/svg/title.svg" />
+                </svg>
+
+                <p class="date menu-date futura-font">2024.1.12
+                    <span class="week">(Fri.)</span>-1.15
+                    <span class="week">(Mon.)</span>
+                </p>
+                <p class="time futura-font">9:00-17:00</p>
+                <p class="free-entrance futura-font">入場無料</p>
+                <p class="copyright mb101pr6n-font">©デザイン情報学科 卒業・修了制作展2024</p>
             </ul>
-        </div>
+
+            <div class="main-visual-menu">
+                <img src="assets/images/main_visual_menu.png" alt="">
+            </div>
+        </nav>
+
     </div>
 </header>
 
 <body>
     <div class="container">
-        <nav class="menu dazzle-font">
-            <ul>
-                <li><a href="#">TOP</a></li>
-                <li><a href="#">CONCEPT</a></li>
-                <li><a href="#">WORKS</a></li>
-                <li><a href="#">MAP</a></li>
-                <li><a href="#">ABOUT・ACCESS</a></li>
-            </ul>
-        </nav>
         <div class="section section-01">
             <div class="fade-in"></div>
             <div class="main-container">
                 <svg class="title">
                     <image xlink:href="assets/svg/title.svg" />
                 </svg>
-                <div  class="main-visual">
+                <div class="main-visual">
                     <img src="assets/images/main_visual.png" alt="">
                 </div>
             </div>
-            <p class="date futura-font">2024.1.12(Fri.)-1.15(Mon.)</p>
-            
+            <p class="date futura-font">2024.1.12
+                <span class="week">(Fri.)</span>-1.15
+                <span class="week">(Mon.)</span>
+            </p>
+
         </div>
         <div class="section section-02">GitHubTest2</div>
         <div class="section section-03">テスト</div>

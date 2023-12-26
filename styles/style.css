@@ -102,6 +102,10 @@ a {
         left: 10vw;
         bottom: 20vh;
     }
+
+    .week {
+        font-size: 26px;
+    }
 }
 
 @media screen and (max-width : 1024px) {
@@ -130,7 +134,7 @@ a {
         height: 80vw;
     }
 
-    .menu {
+    .menu-bar {
         opacity: 0;
     }
 
@@ -140,5 +144,9 @@ a {
         font-size: 26px;
         left: 12.5vw;
         bottom: 10vh;
+    }
+
+    .week {
+        font-size: 20px;
     }
 }
