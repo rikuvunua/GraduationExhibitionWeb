@@ -4,6 +4,11 @@ body {
     overflow: hidden;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .container {
     position: relative;
     top: 0;
@@ -13,13 +18,15 @@ body {
 
 .section {
     display: flex;
-    color: #fff;
+    color: #DEDEDE;
     width: 100vw;
     height: 100vh;
 }
 
 .section-01 {
-    background-color: #188FA7;
+    /* background-color: #188FA7; */
+    width: 100vw;
+    height: 100vh;
 }
 
 .section-02 {
@@ -46,6 +53,21 @@ body {
     background-color: #188FA7;
 }
 
+.fade-in {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #DEDEDE;
+    opacity: 1;
+    transition: opacity 1.75s ease-in-out;
+}
+
+.fade-in.active {
+    opacity: 0;
+}
+
 .title {
     position: relative;
     width: 100vw;
@@ -55,5 +77,5 @@ body {
 }
 
 .title image {
-    width: 40vw;
+    width: 35vw;
 }

@@ -128,12 +128,15 @@
     transform: translateY(-11px) rotate(-45deg);
 }
 
+/* デスクトップメニュー */
 .menu {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 999;
+    margin-left: 10vw;
+    margin-top: 10vh;
 }
 
 .menu ul {
@@ -142,9 +145,10 @@
     margin: 0;
 }
 
-/* 横向排列菜单项 */
+
 .menu ul li {
     display: inline-block;
     margin-right: 20px;
-    /* 为每个菜单项之间添加间距 */
+    font-size: 1.2vw;
+    cursor: pointer;
 }
