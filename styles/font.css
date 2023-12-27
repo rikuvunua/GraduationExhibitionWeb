@@ -16,7 +16,7 @@
 /* モバイル---------------------------------------------------------- */
 @media screen and (max-width : 1024px) {
     h1 {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     h2 {
@@ -38,13 +38,17 @@
     .btn {
         font-size: 12px;
     }
+
+    .nav-item{
+        font-size: :15px;
+    }
 }
 
 /* デスクトップ---------------------------------------------------------- */
 
 @media screen and (min-width : 1025px) {
     h1 {
-        font-size: 32px;
+        font-size: 48px;
     }
 
     h2 {
