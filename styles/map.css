@@ -20,7 +20,7 @@ body {
     height: 100vh; /* 画面の高さの倍数に調整 */
 
     
-    background-image: url('../assets/images/map/grade1.png'); 
+    background-image: url('../assets/images/grade1.png'); 
     background-size: cover; /* 画像を要素に合わせてカバーする */
     background-position: center; /* 画像を要素の中央に配置 */
     background-repeat: no-repeat; /* 画像を繰り返し表示しない */
@@ -32,7 +32,7 @@ body {
     height: 1080vh; /* 画面の高さの倍数に調整 */
     
     
-    background-image: url('../assets/images/map/haikei2.png'); 
+    background-image: url('../assets/images/haikei2.png'); 
     background-size: cover; /* 画像を要素に合わせてカバーする */
     background-position: center; /* 画像を要素の中央に配置 */
     background-repeat: no-repeat; /* 画像を繰り返し表示しない */
@@ -42,7 +42,7 @@ body {
     /* スマートフォン画面において適用されるスタイル */
     .background2 {
         height: 812vh;
-        background-image: url('../assets/images/map/sumaho-haikei.png'); /* スマートフォン用の背景画像 */
+        background-image: url('../assets/images/sumaho-haikei.png'); /* スマートフォン用の背景画像 */
     }
     
 }
@@ -53,7 +53,7 @@ body {
     height: 100vh; /* 画面の高さの倍数に調整 */
     
     
-    background-image: url('../assets/images/map/foot.png'); 
+    background-image: url('../assets/images/foot.png'); 
     background-size: cover; /* 画像を要素に合わせてカバーする */
     background-position: center; /* 画像を要素の中央に配置 */
     background-repeat: no-repeat; /* 画像を繰り返し表示しない */
@@ -65,7 +65,7 @@ body {
         height: 70vh;
          background-size: 100%;
           background-repeat: no-repeat;
-        background-image: url('../assets/images/map/m_foot.png'); /* スマートフォン用の背景画像 */
+        background-image: url('../assets/images/m_foot.png'); /* スマートフォン用の背景画像 */
     }
     
 }
