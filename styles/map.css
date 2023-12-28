@@ -131,6 +131,22 @@ body {
     
 }
 
+.title_all_works{
+    position: relative;
+    padding-bottom: 12px;
+    padding-top: 25.4375rem;
+    margin-left: 4.125rem;
+    border-bottom:solid 6px black;
+    width: 270px;
+}
+
+@media (max-width: 844px) {
+
+   .title_all_works {
+     padding-top: 12.375rem;
+     margin-left: 0.9375rem;
+    }
+}
 
 
 
