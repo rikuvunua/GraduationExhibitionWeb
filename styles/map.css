@@ -14,11 +14,21 @@ body {
 
 
 /*画像背景*/
+<<<<<<< Updated upstream:styles/map.css
 .section-01 {
     /* background-color: #188FA7; */
     width: 100vw;
     height: 100vh;
     position: relative;
+=======
+
+.section-01 {
+  display: flex;
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  background-color: #188FA7;
+>>>>>>> Stashed changes:マップ/map.css
 }
 
 .background1 {
