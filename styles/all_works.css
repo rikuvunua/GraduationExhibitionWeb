@@ -152,10 +152,46 @@ body {
 
 /*共通終了-------------------------------------------------------------------------------*/
 
+
+
+
+/*タイトル*/
 .title_all_works{
+    position: relative;
     padding-bottom: 12px;
-    border-bottom: 1px solid brack;
+    padding-top: 13.4375rem;
+    margin-left: 4.125rem;
+    border-bottom:solid 6px black;
+    width: 160px;
 }
+
+@media (max-width: 844px) {
+
+   .title_all_works {
+     padding-top: 12.375rem;
+     margin-left: 0.9375rem;
+    }
+}
+
+/*検索機能*/
+.sort-container{
+    position: relative;
+    margin-top: 52px;
+    width: 100%;
+    height: 37.9375rem;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 844px) {
+
+   .sort-container {
+     height: 26.875rem;
+
+    }
+}
+
+
+      
 
 
 
