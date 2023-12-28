@@ -11,63 +11,6 @@ body {
 
 
 
-/* font-sizeのレスポンシブ設定---------------------------------------------------------- */
-/* モバイル---------------------------------------------------------- */
-
-h1 {
-    font-size: 18px;
-}
-
-h2 {
-    font-size: 15px;
-}
-
-p {
-    font-size: 12px;
-}
-
-.d_p_sub {
-    font-size: 12px; 
-}
-
-.d_p_cap
- {
-    font-size: 12px; 
-}
-
-.btn {
-    font-size: 12px; 
-}
-
-/* デスクトップ---------------------------------------------------------- */
-
-@media (min-width: 1920px) {
-    h1 {
-        font-size: 32px;
-    }
-
-    h2 {
-        font-size: 25px;
-    }
-
-    p {
-        font-size: 24px;
-    }
-
-     .d_p_sub {
-        font-size: 20px; 
-    }
-
-    .btn {
-        font-size: 14px; 
-    }
-
-    .d_p_cap
- {
-    font-size: 14px; 
-}
-}
-
 
 
 /*画像背景*/
