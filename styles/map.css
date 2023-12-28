@@ -53,7 +53,7 @@ body {
     height: 100vh; /* 画面の高さの倍数に調整 */
     
     
-    background-image: url('assets/images/map/foot.png'); 
+    background-image: url('assets/images/foot.png'); 
     background-size: cover; /* 画像を要素に合わせてカバーする */
     background-position: center; /* 画像を要素の中央に配置 */
     background-repeat: no-repeat; /* 画像を繰り返し表示しない */
