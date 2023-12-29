@@ -8,10 +8,10 @@
 <link
   rel="stylesheet"
   href="https://unpkg.com/modern-css-reset/dist/reset.min.css"/>
+  <link rel="stylesheet" href="styles/font.css">
     <link rel="stylesheet" href="styles/all_works.css">
     <link rel="stylesheet" href="styles/menu.css">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/font.css">
     <link rel="stylesheet" href="styles/map-gradient.css">
 </head>
 
@@ -76,23 +76,132 @@
         </nav>
 
    
- <!--グラデーション背景部分-->  
+ <!--グラデーション背景部分 section-01-->  
  <div class="section-01">
 
    <div class="title_all_works">
    <h1>作品一覧</h1>
    </div>
 
+<!--検索・白い枠内--------------------------------------------------------------------------------->  
    <div class="sort-container">
       <img class="sort_buttom" src="assets/images/all_works/sort_buttom.svg" alt="検索ボタン">
-      
+
+<!--検索・ジャンル1「研究室」-->  
     <div class="h2_title_wrapper">
     <h2 class="h2_title"><span class="h2_title_font">研究室</span></h2>
     </div>
 
-   </div>
     
+<!-- チェックボックス「研究室」-->
+<div class="chackbox">
+   <div class="checkbox filter_box">
+      <input type="checkbox" id="checkbox_filter_box_list_label1" name="genre" value="ALL">
+      <label class="btn" for="checkbox_filter_box_list_label1">ALL</label>
+   </div>
+
+   <div class="checkbox filter_box">
+      <input type="checkbox" id="checkbox_filter_box_list_label2" name="genre" value="J佐藤ゼミ">
+      <label class="btn" for="checkbox_filter_box_list_label2">J佐藤ゼミ</label>
+   </div>
+
+   <div class="checkbox filter_box">
+      <input type="checkbox" id="checkbox_filter_box_list_label3" name="genre" value="白石ゼミ">
+      <label class="btn" for="checkbox_filter_box_list_label3">白石ゼミ</label>
+   </div>
+
+<div class="checkbox filter_box">
+      <input type="checkbox" id="checkbox_filter_box_list_label4" name="genre" value="井上ゼミ">
+      <label class="btn" for="checkbox_filter_box_list_label3">井上ゼミ</label>
+   </div>
+
+   <div class="checkbox filter_box">
+      <input type="checkbox" id="checkbox_filter_box_list_label5" name="genre" value="高山ゼミ">
+      <label class="btn" for="checkbox_filter_box_list_label3">高山ゼミ</label>
+   </div>
+
+   <div class="checkbox filter_box">
+      <input type="checkbox" id="checkbox_filter_box_list_label6" name="genre" value="大石ゼミ">
+      <label class="btn" for="checkbox_filter_box_list_label3">大石ゼミ</label>
+   </div>
+
+   <div class="checkbox filter_box">
+      <input type="checkbox" id="checkbox_filter_box_list_label7" name="genre" value="新保ゼミ">
+      <label class="btn" for="checkbox_filter_box_list_label3">新保ゼミ</label>
+   </div>
+
+   <div class="checkbox filter_box">
+      <input type="checkbox" id="checkbox_filter_box_list_label8" name="genre" value="院生">
+      <label class="btn" for="checkbox_filter_box_list_label3">院生</label>
+   </div>
+
+</div>
+
+<!--検索・ジャンル2「作品ジャンル」-->  
+    <div class="h2_title_wrapper">
+    <h2 class="h2_title"><span class="h2_title_font">作品ジャンル</span></h2>
+    </div>
+
+    
+<!-- チェックボックス「作品ジャンル」-->
+<div class="chackbox2">
+   <div class="checkbox filter_box2">
+      <input type="checkbox" id="checkbox2_filter_box_list_label1" name="genre" value="ALL">
+      <label class="btn" for="checkbox2_filter_box_list_label1">ALL</label>
+   </div>
+
+   <div class="checkbox filter_box2">
+      <input type="checkbox" id="checkbox2_filter_box_list_label2" name="genre" value="グラフィック">
+      <label class="btn" for="checkbox2_filter_box_list_label2">グラフィック</label>
+   </div>
+
+   <div class="checkbox filter_box2">
+      <input type="checkbox" id="checkbox2_filter_box_list_label3" name="genre" value="写真">
+      <label class="btn" for="checkbox2_filter_box_list_label3">写真</label>
+   </div>
+
+<div class="checkbox filter_box2">
+      <input type="checkbox" id="checkbox2_filter_box_list_label4" name="genre" value="立体">
+      <label class="btn" for="checkbox2_filter_box_list_label4">立体</label>
+   </div>
+
+   <div class="checkbox filter_box2">
+      <input type="checkbox" id="checkbox2_filter_box_list_label5" name="genre" value="インスタレーション">
+      <label class="btn" for="checkbox2_filter_box_list_label5">インスタレーション</label>
+   </div>
+
+   <div class="checkbox filter_box2">
+      <input type="checkbox" id="checkbox2_filter_box_list_label5" name="genre" value="映像">
+      <label class="btn" for="checkbox2_filter_box_list_label5">映像</label>
+   </div>
+
+   <div class="checkbox filter_box2">
+      <input type="checkbox" id="checkbox2_filter_box_list_label6" name="genre" value="書籍">
+      <label class="btn" for="checkbox2_filter_box_list_label6">書籍</label>
+   </div>
+
+   <div class="checkbox filter_box2">
+      <input type="checkbox" id="checkbox2_filter_box_list_label7" name="genre" value="インタラクション">
+      <label class="btn" for="checkbox2_filter_box_list_label7">インタラクション</label>
+   </div>
+
+   <div class="checkbox filter_box2">
+      <input type="checkbox" id="checkbox2_filter_box_list_label8" name="genre" value="WEB">
+      <label class="btn" for="checkbox2_filter_box_list_label8">WEB</label>
+   </div>
+
+   <div class="checkbox filter_box2">
+      <input type="checkbox" id="checkbox2_filter_box_list_label9" name="genre" value="調査・研究">
+      <label class="btn" for="checkbox2_filter_box_list_label9">調査・研究</label>
+   </div>
+
+</div>
+
+
+</div>
+<!--検索・白いボックス・終了・「sort-container」---------------------------------------------------------->
  </div>
+<!--検索・終了・section01-------------------------------------------------------------------->
 
  <!--グレー背景部分-->  
  <div class="background2"></div>
@@ -122,7 +231,8 @@
 
 
 
-
+<!-- JavaScript -->
+    <script type="text/javascript" src="scripts/all_works.js"></script>
 </body>
 </html>
 

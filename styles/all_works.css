@@ -177,17 +177,17 @@ body {
 /*検索機能*/
 .sort-container{
     position: relative;
-    padding:3.25rem 4.125rem ;
+    padding:3.25rem 4.125rem;
     margin-top: 52px;
     width: 100%;
-    height: 37.9375rem;
+    height: auto;
     background-color: rgba(255, 255, 255, 0.8);
 }
 
 @media (max-width: 844px) {
 
    .sort-container {
-     height: 26.875rem;
+     height: auto;
      padding:2rem 0.9375rem ;
 
     }
@@ -209,7 +209,7 @@ body {
 
 
 .h2_title_wrapper{
-   margin-top: 3.75rem;
+   margin-top: 24px;
    border-bottom:solid 4px;
    position: relative;
 }
@@ -217,7 +217,7 @@ body {
 @media (max-width: 844px) {
 
    .h2_title_wrapper {
-      margin-top: 1.875rem;
+      margin-top: 12px;
       border-bottom:solid 2px;
     }
 }
@@ -225,6 +225,7 @@ body {
 
 
 .h2_title{
+    position: relative;
     color: white;
     background-color: black;
     height: 100%;
@@ -248,24 +249,183 @@ body {
 
 .h2_title_font{
     
-
 }
 
 
 
+/* チェックボックスの設定、グリッドレイアウト「研究室」---------------------------------------------------------- */
+
+.chackbox {
+    display: grid; /* Grid Containerとして設定 */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 柔軟な列の設定 */
+    grid-auto-rows: minmax(12px, 26px); /* 行の最小と最大の高さを設定 */
+    grid-auto-columns:minmax(12px, 134px);/* 列の最小と最大の幅を設定 */
+    grid-gap: 1.5rem; /* 行と列の隙間を1.5remに設定 (デスクトップ) */
+    margin-top: 24px;
+    max-width: 100%;
+
+}
+
+.checkbox.filter_box {
+    display: flex; /* Flexboxを使用 */
+    align-items: center; /* 垂直方向の中央揃え */
+    justify-content: start; /* 水平方向の開始端揃え */
+    flex-wrap: nowrap; /* テキストがはみ出した場合に折り返す */
+}
+
+.checkbox.filter_box label {
+    margin-left: 8px; /* チェックボックスとラベルの間の隙間 */
+    white-space: nowrap; /* テキストの折り返しを防ぐ */
+}
+
+/* ジャンル1を1行目に配置 */
+.checkbox.filter_box:nth-child(1) {
+    grid-column: 1 / -1; /* 1行目を全幅で使用 */
+}
+
+/* ジャンル2以降を2行目に配置 */
+.checkbox.filter_box:nth-child(n+2) {
+    grid-column: auto; /* 自動的に列を設定 */
+}
+
+/* モバイルデバイス用のメディアクエリ */
+@media screen and (max-width: 375px) {
+    .chackbox {
+        grid-template-columns: repeat(3, 1fr); /* モバイルでは1行に3列 */
+        grid-gap: 0.1rem; /* モバイルでは行と列の隙間を1.25remに設定 */
+        margin-top: 12px;
+    }
+
+    .checkbox.filter_box:nth-child(1) {
+        grid-column: span 3; /* ジャンル1は3列を跨ぐ */
+    }
+
+    .checkbox.filter_box:nth-child(n+2) {
+        grid-column: auto; /* ジャンル2以降は自動配置 */
+    }
+.checkbox.filter_box label {
+    margin-left: 4px; /* チェックボックスとラベルの間の隙間 */
+}
+
+}
+
+
+/* チェックボックスの設定、グリッドレイアウト「作品ジャンル」---------------------------------------------------------- */
+.chackbox2 {
+    display: grid; /* Grid Containerとして設定 */
+    grid-template-columns: repeat(5, minmax(86px, 1fr)); /* デスクトップでは1行目は1列、2行目からは6列 */
+    grid-auto-rows: minmax(12px, 26px); /* 行の最小と最大の高さを設定 */
+    grid-gap: 1.5rem; /* 行と列の隙間を1.5remに設定 (デスクトップ) */
+    margin-top: 24px;
+    max-width: 100%;
+}
+
+.checkbox.filter_box2 {
+    display: flex; /* Flexboxを使用 */
+    align-items: center; /* 垂直方向の中央揃え */
+    justify-content: start; /* 水平方向の開始端揃え */
+    flex-wrap: nowrap; /* テキストがはみ出した場合に折り返す */
+}
+
+.checkbox.filter_box2 label {
+    margin-left: 8px; /* チェックボックスとラベルの間の隙間 */
+    white-space: nowrap; /* テキストの折り返しを防ぐ */
+}
+
+/* ジャンル1を1行目に配置 */
+.checkbox.filter_box2:nth-child(1) {
+    grid-column: 1 / -1; /* 1行目を全幅で使用 */
+}
+
+/* ジャンル2以降を2行目に配置 */
+.checkbox.filter_box2:nth-child(n+2) {
+    grid-column: auto; /* 自動的に列を設定 */
+}
+
+/* モバイルデバイス用のメディアクエリ */
+@media screen and (max-width: 375px) {
+    .chackbox2 {
+        grid-template-columns: repeat(2, minmax(50px, 1fr)); /* モバイルでは1行目は1列、2行目からは2列 */
+        grid-gap: 0.1rem; /* モバイルでは行と列の隙間を1.25remに設定 */
+        margin-top: 12px;
+    }
+
+    .checkbox.filter_box2:nth-child(1) {
+        grid-column: 1 / -1; /* 1行目を全幅で使用 */
+    }
+
+    .checkbox.filter_box2:nth-child(n+2) {
+        grid-column: auto; /* 2行目以降は自動配置 */
+    }
+}
+
+
+
+
+
+
+/* チェックボックス、チェックボックスのスタイル---------------------------------------------------------- */
       
+/* デスクトップ用スタイル */
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 26px; /* チェックボックスのサイズを26pxに */
+    height: 26px;
+    border: 2px solid black; /* 線の太さと色 */
+    border-radius: 0; /* 角を少し丸くする */
+}
+
+input[type="checkbox"]:checked {
+    background-color: black;
+    border: 2px solid black;
+}
+
+input[type="checkbox"]:checked:after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    margin: 4px 7px; /* 中央に配置 */
+}
+
+/* モバイルデバイス用のメディアクエリ */
+@media screen and (max-width: 375px) {
+    input[type="checkbox"] {
+        width: 14px; /* チェックボックスのサイズを14pxに */
+        height: 14px;
+        border-width: 1px; /* 線の太さを1pxに */
+    }
+
+    input[type="checkbox"]:checked:after {
+        content: "";
+        display: block;
+        width: 4px; /* チェックマークの幅 */
+        height: 7px; /* チェックマークの高さ */
+        border: solid white;
+        border-width: 0 1px 1px 0;
+        transform: rotate(45deg);
+        margin: 1px 2px 1px 3px; /* チェックマークの位置を1pxずつ右上に調整 */
+    }
+}
+
+/* font-sizeのレスポンシブ設定---------------------------------------------------------- */
+@media screen and (min-width : 1025px){
+    .btn{
+
+font-size: 24px;
+font-weight: 600;
+    }
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width : 1024px) {
+    .btn{
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
