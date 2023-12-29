@@ -134,8 +134,8 @@ body {
 .title_all_works{
     position: relative;
     padding-bottom: 1px;
-    padding-top: 25.4375rem;
-    margin-left: 9.550rem;
+    padding-top: 50vh;
+    margin-left: 10.5vw;
     border-bottom:solid 6px black;
     width: 400px;
 }
@@ -150,10 +150,10 @@ body {
 }
 
 .mapall{
-    position: relative;
+    position: absolute;
     width: 50%;
-    top: -35vh;
-    margin-left: 38.550rem;
+    top: 20vh;
+    margin-left: 40vw;
 }
 
 @media (max-width: 844px) {
