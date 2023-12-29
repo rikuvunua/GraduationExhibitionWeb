@@ -40,8 +40,19 @@ body {
 }
 
 .background2 {
+    overflow: hidden;
     position: relative;
     width: 100%;
+<<<<<<< HEAD
+    height: 1080vh; /* 画面の高さの倍数に調整 */
+    padding-left: 9.06vw; 
+    padding-right: 9.06vw;     
+    
+    background-image: url('../assets/images/haikei2.png'); 
+    background-size: cover; /* 画像を要素に合わせてカバーする */
+    background-position: center; /* 画像を要素の中央に配置 */
+    background-repeat: no-repeat; /* 画像を繰り返し表示しない */
+=======
     height: 1080vh;
     /* 画面の高さの倍数に調整 */
     background-image: url('../assets/images/haikei2.png');
@@ -51,6 +62,7 @@ body {
     /* 画像を要素の中央に配置 */
     background-repeat: no-repeat;
     /* 画像を繰り返し表示しない */
+>>>>>>> 708b6407358a2f870e642c1d1abc0ee7556b1305
 }
 
 @media (max-width: 844px) {
@@ -58,8 +70,14 @@ body {
     /* スマートフォン画面において適用されるスタイル */
     .background2 {
         height: 812vh;
+<<<<<<< HEAD
+        background-image: url('../assets/images/sumaho-haikei.png'); /* スマートフォン用の背景画像 */
+        padding-left: 10.68vw; 
+    　　padding-right: 10.68vw;  
+=======
         background-image: url('../assets/images/sumaho-haikei.png');
         /* スマートフォン用の背景画像 */
+>>>>>>> 708b6407358a2f870e642c1d1abc0ee7556b1305
     }
 }
 
@@ -162,12 +180,18 @@ body {
 /*共通終了-------------------------------------------------------------------------------*/
 
 
+<<<<<<< HEAD
+/*絞り込み検索-------------------------------------------------------------------------------*/
+
+/*タイトル「作品一覧」---------------------------------*/
+=======
 /*タイトル*/
+>>>>>>> 708b6407358a2f870e642c1d1abc0ee7556b1305
 
 .title_all_works {
     position: relative;
     padding-bottom: 12px;
-    padding-top: 13.4375rem;
+    padding-top: 9.375rem;
     margin-left: 4.125rem;
     border-bottom: solid 6px black;
     width: 160px;
@@ -258,7 +282,7 @@ body {
 
 
 
-/* チェックボックスの設定、グリッドレイアウト「研究室」---------------------------------------------------------- */
+/* チェックボックスの設定、グリッドレイアウト---------- */
 
 .checkbox {
     display: grid;
@@ -305,12 +329,19 @@ body {
 }
 
 /* モバイルデバイス用のメディアクエリ */
+<<<<<<< HEAD
+@media screen and (max-width: 844px) {
+    .checkbox{
+        grid-template-columns: repeat(2, minmax(50px, 1fr)); /* モバイルでは1行目は1列、2行目からは2列 */
+        grid-gap: 0.1rem; /* モバイルでは行と列の隙間を1.25remに設定 */
+=======
 @media screen and (max-width: 430px) {
     .checkbox {
         grid-template-columns: repeat(2, minmax(50px, 1fr));
         /* モバイルでは1行目は1列、2行目からは2列 */
         grid-gap: 0.1rem;
         /* モバイルでは行と列の隙間を1.25remに設定 */
+>>>>>>> 708b6407358a2f870e642c1d1abc0ee7556b1305
         margin-top: 12px;
     }
 
@@ -327,8 +358,13 @@ body {
 
 
 
+<<<<<<< HEAD
+/* チェックボックス、チェックボックスのスタイル---- */
+      
+=======
 /* チェックボックス、チェックボックスのスタイル---------------------------------------------------------- */
 
+>>>>>>> 708b6407358a2f870e642c1d1abc0ee7556b1305
 /* デスクトップ用スタイル */
 input[type="checkbox"] {
     -webkit-appearance: none;
@@ -361,7 +397,7 @@ input[type="checkbox"]:checked:after {
 }
 
 /* モバイルデバイス用のメディアクエリ */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 844px) {
     input[type="checkbox"] {
         width: 14px;
         /* チェックボックスのサイズを14pxに */
@@ -385,19 +421,137 @@ input[type="checkbox"]:checked:after {
     }
 }
 
+<<<<<<< HEAD
+/*section2　作品一覧-------------------------------------------------------------------------------*/
+
+.h2_genre_title_wrapper{
+   margin-top: 3.23vw;
+   border-bottom:solid 4px;
+   position: relative;
+}
+
+@media (max-width: 844px) {
+
+   .h2_genre_title_wrapper {
+      margin-top: 11.2vw;
+      border-bottom:solid 2px;
+    }
+}
+
+
+
+.h2_genre_title{
+    position: relative;
+    color: white;
+    background-color: black;
+    height: 100%;
+    padding: 12px 0px 12px 30px;
+    margin-right: 1309px;
+    min-width: 500px;
+
+}
+
+
+@media (max-width: 844px) {
+
+   .h2_genre_title {
+    background-color: black;
+    padding: 8px 0px 8px 12px;
+    margin-right: 132px;
+    min-width: 142px;
+ 
+    }
+}
+
+.h2_genre_title_font{
+    
+}
+
+.work_list_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* グリッドの列の設定 */
+  grid-row-gap: 3.645833333vw; /* デスクトップ用の行間の間隔 */
+  grid-column-gap: .895833333vw; /* デスクトップ用の列間の間隔 */
+  padding: 0;
+  margin-top:3.125vw;
+  list-style-type: none;
+}
+
+.work_list_item {
+  width: 100%; /* リスト項目の幅 */
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .work_list_wrapper {
+    grid-template-columns: repeat(4, 1fr); /* デスクトップでは1行に4列に設定 */
+    margin-top: 2.1875vw;
+     grid-row-gap: 4.270833333vw; /* デスクトップ用の行間の間隔 */
+    grid-column-gap: 4.270833333vw; /* デスクトップ用の列間の間隔 */
+   
+  }
+}
+
+@media (max-width: 767px) {
+  .work_list_wrapper {
+    grid-template-columns: repeat(2, 1fr); /* モバイルでは1行に2列に設定 */
+     grid-row-gap: 4.270833333vw; /* モバイル用の行間の間隔 */
+    grid-column-gap: 4.270833333vw; /* モバイル用の列間の間隔 */
+  }
+}
+
+
+/* 画像サイズの調整--------- */
+@media (min-width: 1200px) {
+  .work_list_item_img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* モバイル用（幅が393px以下） */
+@media (max-width: 393px) {
+  .work_list_item_img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+/* font-sizeのレスポンシブ設定------------------------ */
+@media screen and (min-width : 1025px){
+    .btn{
+=======
 /* font-sizeのレスポンシブ設定---------------------------------------------------------- */
 @media screen and (min-width : 1025px) {
     .btn {
+>>>>>>> 708b6407358a2f870e642c1d1abc0ee7556b1305
 
         font-size: 24px;
         font-weight: 600;
     }
+
+     .d_p_sub {
+        font-size: 20px;
+        margin-top: 18px;
+    }
 }
 
 
+<<<<<<< HEAD
+@media screen and (max-width : 393px) {
+    .btn{
+=======
 @media screen and (max-width : 1024px) {
     .btn {
+>>>>>>> 708b6407358a2f870e642c1d1abc0ee7556b1305
         font-size: 12px;
         font-weight: 600;
     }
+     .d_p_sub {
+        font-size: 12px;
+        margin-top: 12px;
+    }
 }
+
