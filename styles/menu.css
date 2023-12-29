@@ -131,8 +131,8 @@ li {
 }
 
 .menu-date {
-    position: relative;
-    left: 0;
+    position: relative !important;
+    left: 0 !important;
     margin-top: -4vh;
     opacity: 0.8;
 }
