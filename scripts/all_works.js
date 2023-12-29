@@ -16,14 +16,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 window.onload = function() {
-    const chackbox = document.querySelector('.chackbox');
-    const filterBoxes = chackbox.querySelectorAll('.checkbox.filter_box');
+    const checkbox = document.querySelector('.checkbox');
+    const filterBoxes = checkbox.querySelectorAll('.checkbox.filter_box');
 
     let isOverflowing = false;
 
     filterBoxes.forEach(box => {
-        console.log('Box width:', box.offsetWidth, 'Container width:', chackbox.offsetWidth);
-        if (box.offsetWidth > chackbox.offsetWidth) {
+        console.log('Box width:', box.offsetWidth, 'Container width:', checkbox.offsetWidth);
+        if (box.offsetWidth > checkbox.offsetWidth) {
             isOverflowing = true;
         }
     });
@@ -31,6 +31,6 @@ window.onload = function() {
     console.log('Is overflowing:', isOverflowing);
 
     if (isOverflowing) {
-        chackbox.style.gridTemplateColumns = 'repeat(2, 1fr)';
+        checkbox.style.gridTemplateColumns = 'repeat(2, 1fr)';
     }
 };

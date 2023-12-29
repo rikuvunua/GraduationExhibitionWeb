@@ -169,7 +169,7 @@ body {
 @media (max-width: 844px) {
 
    .title_all_works {
-     padding-top: 12.375rem;
+     padding-top: 8.375rem;
      margin-left: 0.9375rem;
     }
 }
@@ -255,11 +255,10 @@ body {
 
 /* チェックボックスの設定、グリッドレイアウト「研究室」---------------------------------------------------------- */
 
-.chackbox {
+.checkbox {
     display: grid; /* Grid Containerとして設定 */
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 柔軟な列の設定 */
+    grid-template-columns: repeat(5, minmax(86px, 1fr)); /* デスクトップでは1行目は1列、2行目からは6列 */
     grid-auto-rows: minmax(12px, 26px); /* 行の最小と最大の高さを設定 */
-    grid-auto-columns:minmax(12px, 134px);/* 列の最小と最大の幅を設定 */
     grid-gap: 1.5rem; /* 行と列の隙間を1.5remに設定 (デスクトップ) */
     margin-top: 24px;
     max-width: 100%;
@@ -289,78 +288,21 @@ body {
 }
 
 /* モバイルデバイス用のメディアクエリ */
-@media screen and (max-width: 375px) {
-    .chackbox {
-        grid-template-columns: repeat(3, 1fr); /* モバイルでは1行に3列 */
-        grid-gap: 0.1rem; /* モバイルでは行と列の隙間を1.25remに設定 */
-        margin-top: 12px;
-    }
-
-    .checkbox.filter_box:nth-child(1) {
-        grid-column: span 3; /* ジャンル1は3列を跨ぐ */
-    }
-
-    .checkbox.filter_box:nth-child(n+2) {
-        grid-column: auto; /* ジャンル2以降は自動配置 */
-    }
-.checkbox.filter_box label {
-    margin-left: 4px; /* チェックボックスとラベルの間の隙間 */
-}
-
-}
-
-
-/* チェックボックスの設定、グリッドレイアウト「作品ジャンル」---------------------------------------------------------- */
-.chackbox2 {
-    display: grid; /* Grid Containerとして設定 */
-    grid-template-columns: repeat(5, minmax(86px, 1fr)); /* デスクトップでは1行目は1列、2行目からは6列 */
-    grid-auto-rows: minmax(12px, 26px); /* 行の最小と最大の高さを設定 */
-    grid-gap: 1.5rem; /* 行と列の隙間を1.5remに設定 (デスクトップ) */
-    margin-top: 24px;
-    max-width: 100%;
-}
-
-.checkbox.filter_box2 {
-    display: flex; /* Flexboxを使用 */
-    align-items: center; /* 垂直方向の中央揃え */
-    justify-content: start; /* 水平方向の開始端揃え */
-    flex-wrap: nowrap; /* テキストがはみ出した場合に折り返す */
-}
-
-.checkbox.filter_box2 label {
-    margin-left: 8px; /* チェックボックスとラベルの間の隙間 */
-    white-space: nowrap; /* テキストの折り返しを防ぐ */
-}
-
-/* ジャンル1を1行目に配置 */
-.checkbox.filter_box2:nth-child(1) {
-    grid-column: 1 / -1; /* 1行目を全幅で使用 */
-}
-
-/* ジャンル2以降を2行目に配置 */
-.checkbox.filter_box2:nth-child(n+2) {
-    grid-column: auto; /* 自動的に列を設定 */
-}
-
-/* モバイルデバイス用のメディアクエリ */
-@media screen and (max-width: 375px) {
-    .chackbox2 {
+@media screen and (max-width: 430px) {
+    .checkbox{
         grid-template-columns: repeat(2, minmax(50px, 1fr)); /* モバイルでは1行目は1列、2行目からは2列 */
         grid-gap: 0.1rem; /* モバイルでは行と列の隙間を1.25remに設定 */
         margin-top: 12px;
     }
 
-    .checkbox.filter_box2:nth-child(1) {
+    .checkbox.filter_box:nth-child(1) {
         grid-column: 1 / -1; /* 1行目を全幅で使用 */
     }
 
-    .checkbox.filter_box2:nth-child(n+2) {
+    .checkbox.filter_box:nth-child(n+2) {
         grid-column: auto; /* 2行目以降は自動配置 */
     }
 }
-
-
-
 
 
 
@@ -394,7 +336,7 @@ input[type="checkbox"]:checked:after {
 }
 
 /* モバイルデバイス用のメディアクエリ */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 430px) {
     input[type="checkbox"] {
         width: 14px; /* チェックボックスのサイズを14pxに */
         height: 14px;
