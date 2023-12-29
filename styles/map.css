@@ -133,20 +133,38 @@ body {
 
 .title_all_works{
     position: relative;
-    padding-bottom: 12px;
+    padding-bottom: 1px;
     padding-top: 25.4375rem;
-    margin-left: 4.125rem;
+    margin-left: 9.550rem;
     border-bottom:solid 6px black;
-    width: 270px;
+    width: 400px;
 }
 
 @media (max-width: 844px) {
 
    .title_all_works {
      padding-top: 12.375rem;
-     margin-left: 0.9375rem;
+     margin-left: 2.550rem;
+     width: 200px;
     }
 }
+
+.mapall{
+    position: relative;
+    width: 50%;
+    top: -35vh;
+    margin-left: 38.550rem;
+}
+
+@media (max-width: 844px) {
+
+   .mapall {
+     width: 80%;
+    top: 10vh;
+    margin-left: 2.550rem;
+    }
+}
+
 
 
 
