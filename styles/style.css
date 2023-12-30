@@ -1,6 +1,3 @@
-
-
-
 a {
     text-decoration: none;
     color: inherit;
@@ -26,9 +23,9 @@ a {
     height: 100vh;
 }
 
-.section-02 {
+/* .section-02 {
     background-color: #FFFFFF;
-}
+} */
 
 .section-03 {
     background-color: #9DBBAE;
@@ -107,6 +104,15 @@ a {
     .week {
         font-size: 26px;
     }
+
+    .h1-title {
+        position: relative;
+        width: 55vw;
+    }
+
+    .h1-title div {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width : 1024px) {
@@ -123,6 +129,10 @@ a {
     }
 
     .title image {
+        width: 100%;
+    }
+
+    .title div {
         width: 100%;
     }
 

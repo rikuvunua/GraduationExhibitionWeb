@@ -65,5 +65,8 @@ function touchEnd (e) {
 document.addEventListener("DOMContentLoaded", function() {
   const backgroundFadeInElement = document.querySelector('.fade-in');
   backgroundFadeInElement.classList.add('active');
+
+  container.style.height = '1080px';
+  container.style.top = '-1080px';
 });
 

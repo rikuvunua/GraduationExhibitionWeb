@@ -6,7 +6,7 @@
     align-items: center;
     top: 2vh;
     right: 5vw;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .drawer-hidden {
