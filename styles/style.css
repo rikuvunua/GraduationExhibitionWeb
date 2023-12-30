@@ -8,8 +8,8 @@ html {
 
 body {
     scroll-snap-type: y mandatory;
-    /* overflow-x: hidden;
-    overflow-y: scroll; */
+    overflow-x: hidden;
+    overflow-y: scroll;
     /* overflow: hidden; */
     margin: 0;
     padding: 0;

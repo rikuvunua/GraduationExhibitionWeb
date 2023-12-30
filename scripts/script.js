@@ -1,6 +1,23 @@
+function isOrContains(parent, child) {
+  var node = child;
+  while (node) {
+    if (node === parent) {
+      return true;
+    }
+    node = node.parentNode;
+  }
+  return false;
+}
+
+var menuElement = document.querySelector('.nav-content');
+
 let isScrolling = false;
 
 window.addEventListener('wheel', function (e) {
+  if (isOrContains(menuElement, e.target)) {
+    return;
+  }
+
   e.preventDefault();
 
   if (!isScrolling) {
@@ -28,10 +45,16 @@ let touchStartY = 0;
 let touchEndY = 0;
 
 window.addEventListener('touchstart', function (e) {
+  if (isOrContains(menuElement, e.target)) {
+    return;
+  }
   touchStartY = e.changedTouches[0].screenY;
 }, false);
 
 window.addEventListener('touchend', function (e) {
+  if (isOrContains(menuElement, e.target)) {
+    return;
+  }
   touchEndY = e.changedTouches[0].screenY;
   handleSwipeGesture();
 }, false);
