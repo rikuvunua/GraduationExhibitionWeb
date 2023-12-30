@@ -176,10 +176,9 @@ li {
     margin: 0;
 }
 
-
 .menu-bar ul li {
     display: inline-block;
     margin-right: 20px;
-    font-size: 1.2vw;
+    font-size: 25px;
     cursor: pointer;
 }

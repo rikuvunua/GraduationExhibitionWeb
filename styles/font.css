@@ -1,4 +1,11 @@
 @font-face {
+    font-family: "A-OTFGothicMB101PrR";
+    src: url("../assets/fonts/A-OTF-Gothic-MB101-Pro-R.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "A-OTFGothicMB101Pr5B";
     src: url("../assets/fonts/A-OTF-Gothic-MB101-Pr5-B.otf");
     font-weight: normal;
@@ -41,7 +48,6 @@
     }
 }
 
-
 /* デスクトップ---------------------------------------------------------- */
 
 @media screen and (min-width : 1025px) {
@@ -71,6 +77,45 @@
     }
 }
 
+/* font-familyのレスポンシブ設定---------------------------------------------------------- */
+/* モバイル---------------------------------------------------------- */
+@media screen and (max-width : 1024px) {
+    h1 {
+        font-family: "A-OTFGothicMB101Pr5DB", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #000;
+    }
+
+    p {
+        font-size: 12px;
+        font-family: "A-OTFGothicMB101ProR", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #000;
+    }
+
+}
+
+/* デスクトップ---------------------------------------------------------- */
+
+@media screen and (min-width : 1025px) {
+    h1 {
+        font-family: "A-OTFGothicMB101Pr5DB", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #000;
+    }
+
+    p {
+        font-size: 18px;
+        font-family: "A-OTFGothicMB101ProR", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #000;
+    }
+}
+
 /* AdobeFont */
 .dazzle-font {
     font-family: "dazzle-unicase", sans-serif;
@@ -86,6 +131,12 @@
 
 .mb101pr6n-font {
     font-family: "a-otf-gothic-mb101-pr6n", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.mb101pror-font {
+    font-family: "A-OTFGothicMB101ProR", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
