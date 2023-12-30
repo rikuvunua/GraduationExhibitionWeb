@@ -1,10 +1,4 @@
-/*index.htmlにて画面をスクロールしないように固定*/
-body {
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    }
-
+/* デスクトップ */
 @media screen and (min-width : 1025px) {
   .section-01 {
     background-color: #EA5513;
@@ -110,8 +104,45 @@ body {
         -20vmax -10vmax;
     }
   }
+
+  h1 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-right: 10px;
+  }
+
+  h1::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    bottom: -7px;
+    left: 0;
+    margin-left: 10px;
+    background: linear-gradient(to right, #EA5513, #2CA6E0, #EA5513);
+    background-size: 200% 100%;
+    animation: moveGradient 15s infinite linear;
+  }
+
+  @keyframes moveGradient {
+    0% {
+      background-position: 100% 0;
+    }
+
+    50% {
+      background-position: 0 0;
+    }
+
+    100% {
+      background-position: 100% 0;
+    }
+
+  }
+
 }
 
+/* モバイル */
 @media screen and (max-width : 1024px) {
   .section-01 {
     background-color: #EA5513;
@@ -217,4 +248,40 @@ body {
         10vmax -30vmax;
     }
   }
+
+  h1 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-right: 10px;
+  }
+
+  h1::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4.5px;
+    bottom: -7px;
+    left: 0;
+    margin-left: 10px;
+    background: linear-gradient(to right, #EA5513, #2CA6E0, #EA5513);
+    background-size: 200% 100%;
+    animation: moveGradient 15s infinite linear;
+  }
+
+  @keyframes moveGradient {
+    0% {
+      background-position: 100% 0;
+    }
+
+    50% {
+      background-position: 0 0;
+    }
+
+    100% {
+      background-position: 100% 0;
+    }
+
+  }
+
 }

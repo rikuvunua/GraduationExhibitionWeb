@@ -319,6 +319,47 @@ body {
     }
 }
 
+.c305{
+    position: absolute;
+    margin-left: 14vw;
+    top: 90vh;
 
+}
+@media (max-width: 844px) {
+   .c305 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 90vh
+    }
+}
 
+.di20053 {
+    position: absolute;
+    margin-left: 16.3vw;
+    top: 94vh;
+}
+
+.di20053 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20053 span:not(:first-child):not(:last-child) {
+    margin-right: 40px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20053 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 93vh;
+    }
+    .di20053 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20053 span:not(:first-child):not(:last-child) {
+    margin-right: 10px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
 
