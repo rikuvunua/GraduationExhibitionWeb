@@ -41,9 +41,9 @@ a {
     background-color: #FFFFFF;
 } */
 
-.section-03 {
+/* .section-03 {
     background-color: #9DBBAE;
-}
+} */
 
 .section-04 {
     background-color: #188FA7;
@@ -159,6 +159,53 @@ a {
         margin-left: 1vw;
     }
 
+    /* section-03 */
+    .section-03 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .section-03 .professor:nth-child(odd) {
+        transform: translateY(-10%);
+    }
+    
+    .section-03 .professor:nth-child(even) {
+        transform: translateY(10%);
+    }
+
+    .professors-container {
+        position: relative;
+        margin-top: 10vh;
+    }
+    
+    .professor {
+        display: inline-block;
+        margin: 15px;
+    }
+
+    .professor-img {
+        max-width: 200px;
+        height: auto;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .professor-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .professor-info p {
+        margin: 0;
+    }
+
+    .professor-05 img{
+        max-width: 220px;
+    }
 }
 
 @media screen and (max-width : 1024px) {
