@@ -73,10 +73,3 @@ function handleSwipeGesture() {
     });
   }
 }
-
-// FadeIn
-document.addEventListener("DOMContentLoaded", function () {
-  const backgroundFadeInElement = document.querySelector('.fade-in');
-  backgroundFadeInElement.classList.add('active');
-
-});
