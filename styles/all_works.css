@@ -1,157 +1,180 @@
 /*共通CSS-------------------------------------------------------------------------------*/
 
-
 body {
-   margin: 0;
-   padding: 0;
-}
-
-.container{
     margin: 0;
-   padding: 0;
+    padding: 0;
 }
 
-
+.container {
+    margin: 0;
+    padding: 0;
+}
 
 /*画像背景*/
 .section-01 {
     position: relative;
     width: 100%;
-    height: 100vh; /* 画面の高さの倍数に調整 */
-    padding-left: 2.1875rem; /* 35pxに相当 */
-  padding-right: 2.1875rem; /* 35pxに相当 */
+    height: 100vh;
+    /* 画面の高さの倍数に調整 */
+    padding-left: 2.1875rem;
+    /* 35pxに相当 */
+    padding-right: 2.1875rem;
+    /* 35pxに相当 */
 
-    
-    background-image: url('../assets/images/grade1.png'); 
-    background-size: cover; /* 画像を要素に合わせてカバーする */
-    background-position: center; /* 画像を要素の中央に配置 */
-    background-repeat: no-repeat; /* 画像を繰り返し表示しない */
+    background-image: url('../assets/images/grade1.png');
+    background-size: cover;
+    /* 画像を要素に合わせてカバーする */
+    background-position: center;
+    /* 画像を要素の中央に配置 */
+    background-repeat: no-repeat;
+    /* 画像を繰り返し表示しない */
 }
 
 /* デスクトップ用のスタイル */
 @media (min-width: 844px) {
-  .section-01{
-    padding-left: 6.75rem; /* 108pxに相当 */
-    padding-right: 6.75rem; /* 108pxに相当 */
-  }
+    .section-01 {
+        padding-left: 6.75rem;
+        /* 108pxに相当 */
+        padding-right: 6.75rem;
+        /* 108pxに相当 */
+    }
 }
 
 .background2 {
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
     width: 100%;
-    height: 1080vh; /* 画面の高さの倍数に調整 */
-    padding-left: 9.06vw; 
-    padding-right: 9.06vw;     
-    
-    background-image: url('../assets/images/haikei2.png'); 
-    background-size: cover; /* 画像を要素に合わせてカバーする */
-    background-position: center; /* 画像を要素の中央に配置 */
-    background-repeat: no-repeat; /* 画像を繰り返し表示しない */
+    height: 1080vh;
+    /* 画面の高さの倍数に調整 */
+    padding-left: 9.06vw;
+    padding-right: 9.06vw;
+
+    background-image: url('../assets/images/haikei2.png');
+    background-size: cover;
+    /* 画像を要素に合わせてカバーする */
+    background-position: center;
+    /* 画像を要素の中央に配置 */
+    background-repeat: no-repeat;
+    /* 画像を繰り返し表示しない */
 }
 
 @media (max-width: 844px) {
+
     /* スマートフォン画面において適用されるスタイル */
     .background2 {
         height: 812vh;
-        background-image: url('../assets/images/sumaho-haikei.png'); /* スマートフォン用の背景画像 */
-        padding-left: 10.68vw; 
-    　　padding-right: 10.68vw;  
+        background-image: url('../assets/images/sumaho-haikei.png');
+        /* スマートフォン用の背景画像 */
+        padding-left: 10.68vw;
+        padding-right: 10.68vw;
     }
-    
+
 }
 
-.footer_img{
- position: relative;
+.footer_img {
+    position: relative;
     width: 100%;
-    height: 100vh; /* 画面の高さの倍数に調整 */
-    
-    
-    background-image: url('../assets/images/foot.png'); 
-    background-size: cover; /* 画像を要素に合わせてカバーする */
-    background-position: center; /* 画像を要素の中央に配置 */
-    background-repeat: no-repeat; /* 画像を繰り返し表示しない */
+    height: 100vh;
+    /* 画面の高さの倍数に調整 */
+
+    background-image: url('../assets/images/foot.png');
+    background-size: cover;
+    /* 画像を要素に合わせてカバーする */
+    background-position: center;
+    /* 画像を要素の中央に配置 */
+    background-repeat: no-repeat;
+    /* 画像を繰り返し表示しない */
 }
 
 @media (max-width: 844px) {
+
     /* スマートフォン画面において適用されるスタイル */
     .footer_img {
         height: 70vh;
-         background-size: 100%;
-          background-repeat: no-repeat;
-        background-image: url('../assets/images/m_foot.png'); /* スマートフォン用の背景画像 */
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-image: url('../assets/images/m_foot.png');
+        /* スマートフォン用の背景画像 */
     }
-    
+
 }
 
-.insta{
+.insta {
     width: 2%;
-    position: absolute; /* 位置の指定に必要 */
+    position: absolute;
+    /* 位置の指定に必要 */
     top: 1187vh;
     left: 16vh;
 }
 
 @media (max-width: 844px) {
+
     /* スマートフォン画面において適用されるスタイル */
     .insta {
         top: 918vh;
         left: 6vh;
         width: 6%;
     }
-    
+
 }
 
-.twitter{
+.twitter {
     width: 2%;
-    position: absolute; /* 位置の指定に必要 */
+    position: absolute;
+    /* 位置の指定に必要 */
     top: 1187vh;
     left: 22vh;
 }
 
 @media (max-width: 844px) {
+
     /* スマートフォン画面において適用されるスタイル */
     .twitter {
         top: 918vh;
         left: 10vh;
         width: 6%;
     }
-    
+
 }
 
 
-.mauhp{
+.mauhp {
     width: 13%;
-    position: absolute; /* 位置の指定に必要 */
+    position: absolute;
+    /* 位置の指定に必要 */
     top: 1200vh;
     left: 16vh;
 }
 
 @media (max-width: 844px) {
+
     /* スマートフォン画面において適用されるスタイル */
     .mauhp {
         top: 925vh;
         left: 6vh;
         width: 33%;
     }
-    
+
 }
 
 
-.dejohp{
+.dejohp {
     width: 15%;
-    position: absolute; /* 位置の指定に必要 */
+    position: absolute;
+    /* 位置の指定に必要 */
     top: 1206vh;
     left: 16vh;
 }
 
 @media (max-width: 844px) {
+
     /* スマートフォン画面において適用されるスタイル */
     .dejohp {
         top: 928vh;
         left: 6vh;
         width: 38%;
     }
-    
+
 }
 
 /*共通終了-------------------------------------------------------------------------------*/
@@ -161,31 +184,31 @@ body {
 
 /*タイトル「作品一覧」---------------------------------*/
 
-.title_all_works{
+.title_all_works {
     position: relative;
     padding-bottom: 12px;
     padding-top: 9.375rem;
     margin-left: 4.125rem;
-    border-bottom:solid 6px black;
+    border-bottom: solid 6px black;
     width: 10.9375vw;
     min-width: 210px;
 }
 
 @media (max-width: 844px) {
 
-   .title_all_works {
-     padding-top: 8.375rem;
-     margin-left: 0.9375rem;
-     width: 25.477707006vw;
-     min-width: 100px;
+    .title_all_works {
+        padding-top: 8.375rem;
+        margin-left: 0.9375rem;
+        width: 25.477707006vw;
+        min-width: 100px;
 
     }
 }
 
 /*検索機能*/
-.sort-container{
+.sort-container {
     position: relative;
-    padding:3.25rem 4.125rem;
+    padding: 3.25rem 4.125rem;
     margin-top: 52px;
     width: 100%;
     height: auto;
@@ -194,45 +217,45 @@ body {
 
 @media (max-width: 844px) {
 
-   .sort-container {
-     height: auto;
-     padding:2rem 0.9375rem ;
+    .sort-container {
+        height: auto;
+        padding: 2rem 0.9375rem;
 
     }
 }
 
-.sort_buttom{
+.sort_buttom {
     height: 1.5625rem;
 
 }
 
 @media (max-width: 844px) {
 
-   .sort_buttom {
-     height: 0.9375rem;
+    .sort_buttom {
+        height: 0.9375rem;
 
     }
 }
 
 
 
-.h2_title_wrapper{
-   margin-top: 24px;
-   border-bottom:solid 4px;
-   position: relative;
+.h2_title_wrapper {
+    margin-top: 24px;
+    border-bottom: solid 4px;
+    position: relative;
 }
 
 @media (max-width: 844px) {
 
-   .h2_title_wrapper {
-      margin-top: 12px;
-      border-bottom:solid 2px;
+    .h2_title_wrapper {
+        margin-top: 12px;
+        border-bottom: solid 2px;
     }
 }
 
 
 
-.h2_title{
+.h2_title {
     position: relative;
     color: white;
     background-color: black;
@@ -246,85 +269,102 @@ body {
 
 @media (max-width: 844px) {
 
-   .h2_title {
-    background-color: black;
-    padding: 8px 0px 8px 12px;
-    margin-right: 132px;
-    min-width: 142px;
- 
+    .h2_title {
+        background-color: black;
+        padding: 8px 0px 8px 12px;
+        margin-right: 132px;
+        min-width: 142px;
+
     }
 }
 
-.h2_title_font{
-    
-}
+.h2_title_font {}
 
 
 
 /* チェックボックスの設定、グリッドレイアウト---------- */
 
 .checkbox {
-    display: grid; /* Grid Containerとして設定 */
-    grid-template-columns: repeat(5, minmax(86px, 1fr)); /* デスクトップでは1行目は1列、2行目からは6列 */
-    grid-auto-rows: minmax(12px, 26px); /* 行の最小と最大の高さを設定 */
-    grid-gap: 1.5rem; /* 行と列の隙間を1.5remに設定 (デスクトップ) */
+    display: grid;
+    /* Grid Containerとして設定 */
+    grid-template-columns: repeat(5, minmax(86px, 1fr));
+    /* デスクトップでは1行目は1列、2行目からは6列 */
+    grid-auto-rows: minmax(12px, 26px);
+    /* 行の最小と最大の高さを設定 */
+    grid-gap: 1.5rem;
+    /* 行と列の隙間を1.5remに設定 (デスクトップ) */
     margin-top: 24px;
     max-width: 100%;
 
 }
 
 .checkbox.filter_box {
-    display: flex; /* Flexboxを使用 */
-    align-items: center; /* 垂直方向の中央揃え */
-    justify-content: start; /* 水平方向の開始端揃え */
-    flex-wrap: nowrap; /* テキストがはみ出した場合に折り返す */
+    display: flex;
+    /* Flexboxを使用 */
+    align-items: center;
+    /* 垂直方向の中央揃え */
+    justify-content: start;
+    /* 水平方向の開始端揃え */
+    flex-wrap: nowrap;
+    /* テキストがはみ出した場合に折り返す */
 }
 
 .checkbox.filter_box label {
-    margin-left: 8px; /* チェックボックスとラベルの間の隙間 */
-    white-space: nowrap; /* テキストの折り返しを防ぐ */
+    margin-left: 8px;
+    /* チェックボックスとラベルの間の隙間 */
+    white-space: nowrap;
+    /* テキストの折り返しを防ぐ */
 }
 
 /* ジャンル1を1行目に配置 */
 .checkbox.filter_box:nth-child(1) {
-    grid-column: 1 / -1; /* 1行目を全幅で使用 */
+    grid-column: 1 / -1;
+    /* 1行目を全幅で使用 */
 }
 
 /* ジャンル2以降を2行目に配置 */
 .checkbox.filter_box:nth-child(n+2) {
-    grid-column: auto; /* 自動的に列を設定 */
+    grid-column: auto;
+    /* 自動的に列を設定 */
 }
 
 /* モバイルデバイス用のメディアクエリ */
 @media screen and (max-width: 844px) {
-    .checkbox{
-        grid-template-columns: repeat(2, minmax(50px, 1fr)); /* モバイルでは1行目は1列、2行目からは2列 */
-        grid-gap: 0.1rem; /* モバイルでは行と列の隙間を1.25remに設定 */
+    .checkbox {
+        grid-template-columns: repeat(2, minmax(50px, 1fr));
+        /* モバイルでは1行目は1列、2行目からは2列 */
+        grid-gap: 0.1rem;
+        /* モバイルでは行と列の隙間を1.25remに設定 */
         margin-top: 12px;
     }
 
     .checkbox.filter_box:nth-child(1) {
-        grid-column: 1 / -1; /* 1行目を全幅で使用 */
+        grid-column: 1 / -1;
+        /* 1行目を全幅で使用 */
     }
 
     .checkbox.filter_box:nth-child(n+2) {
-        grid-column: auto; /* 2行目以降は自動配置 */
+        grid-column: auto;
+        /* 2行目以降は自動配置 */
     }
 }
 
 
 
 /* チェックボックス、チェックボックスのスタイル---- */
-      
+
 /* デスクトップ用スタイル */
 input[type="checkbox"] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    width: 26px; /* チェックボックスのサイズを26pxに */
+    width: 26px;
+    /* チェックボックスのサイズを26pxに */
     height: 26px;
-    border: 2px solid black; /* 線の太さと色 */
-    border-radius: 0; /* 角を少し丸くする */
+    border: 2px solid black;
+    /* 線の太さと色 */
+    border-radius: 0;
+    /* 角を少し丸くする */
 }
 
 input[type="checkbox"]:checked {
@@ -340,48 +380,54 @@ input[type="checkbox"]:checked:after {
     border: solid white;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
-    margin: 4px 7px; /* 中央に配置 */
+    margin: 4px 7px;
+    /* 中央に配置 */
 }
 
 /* モバイルデバイス用のメディアクエリ */
 @media screen and (max-width: 844px) {
     input[type="checkbox"] {
-        width: 14px; /* チェックボックスのサイズを14pxに */
+        width: 14px;
+        /* チェックボックスのサイズを14pxに */
         height: 14px;
-        border-width: 1px; /* 線の太さを1pxに */
+        border-width: 1px;
+        /* 線の太さを1pxに */
     }
 
     input[type="checkbox"]:checked:after {
         content: "";
         display: block;
-        width: 4px; /* チェックマークの幅 */
-        height: 7px; /* チェックマークの高さ */
+        width: 4px;
+        /* チェックマークの幅 */
+        height: 7px;
+        /* チェックマークの高さ */
         border: solid white;
         border-width: 0 1px 1px 0;
         transform: rotate(45deg);
-        margin: 1px 2px 1px 3px; /* チェックマークの位置を1pxずつ右上に調整 */
+        margin: 1px 2px 1px 3px;
+        /* チェックマークの位置を1pxずつ右上に調整 */
     }
 }
 
 /*section2　作品一覧-------------------------------------------------------------------------------*/
 
-.h2_genre_title_wrapper{
-   margin-top: 3.23vw;
-   border-bottom:solid 4px;
-   position: relative;
+.h2_genre_title_wrapper {
+    margin-top: 3.23vw;
+    border-bottom: solid 4px;
+    position: relative;
 }
 
 @media (max-width: 844px) {
 
-   .h2_genre_title_wrapper {
-      margin-top: 11.2vw;
-      border-bottom:solid 2px;
+    .h2_genre_title_wrapper {
+        margin-top: 11.2vw;
+        border-bottom: solid 2px;
     }
 }
 
 
 
-.h2_genre_title{
+.h2_genre_title {
     position: relative;
     color: white;
     background-color: black;
@@ -395,80 +441,88 @@ input[type="checkbox"]:checked:after {
 
 @media (max-width: 844px) {
 
-   .h2_genre_title {
-    background-color: black;
-    padding: 8px 0px 8px 12px;
-    margin-right: 132px;
-    min-width: 142px;
- 
+    .h2_genre_title {
+        background-color: black;
+        padding: 8px 0px 8px 12px;
+        margin-right: 132px;
+        min-width: 142px;
+
     }
 }
 
-.h2_genre_title_font{
-    
-}
+.h2_genre_title_font {}
 
 .work_list_wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* グリッドの列の設定 */
-  grid-row-gap: 3.645833333vw; /* デスクトップ用の行間の間隔 */
-  grid-column-gap: .895833333vw; /* デスクトップ用の列間の間隔 */
-  padding: 0;
-  margin-top:3.125vw;
-  list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* グリッドの列の設定 */
+    grid-row-gap: 3.645833333vw;
+    /* デスクトップ用の行間の間隔 */
+    grid-column-gap: .895833333vw;
+    /* デスクトップ用の列間の間隔 */
+    padding: 0;
+    margin-top: 3.125vw;
+    list-style-type: none;
 }
 
 .work_list_item {
-  width: 100%; /* リスト項目の幅 */
-  box-sizing: border-box;
+    width: 100%;
+    /* リスト項目の幅 */
+    box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
-  .work_list_wrapper {
-    grid-template-columns: repeat(4, 1fr); /* デスクトップでは1行に4列に設定 */
-    margin-top: 2.1875vw;
-     grid-row-gap: 4.270833333vw; /* デスクトップ用の行間の間隔 */
-    grid-column-gap: 4.270833333vw; /* デスクトップ用の列間の間隔 */
-   
-  }
+    .work_list_wrapper {
+        grid-template-columns: repeat(4, 1fr);
+        /* デスクトップでは1行に4列に設定 */
+        margin-top: 2.1875vw;
+        grid-row-gap: 4.270833333vw;
+        /* デスクトップ用の行間の間隔 */
+        grid-column-gap: 4.270833333vw;
+        /* デスクトップ用の列間の間隔 */
+
+    }
 }
 
 @media (max-width: 767px) {
-  .work_list_wrapper {
-    grid-template-columns: repeat(2, 1fr); /* モバイルでは1行に2列に設定 */
-     grid-row-gap: 4.270833333vw; /* モバイル用の行間の間隔 */
-    grid-column-gap: 4.270833333vw; /* モバイル用の列間の間隔 */
-  }
+    .work_list_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        /* モバイルでは1行に2列に設定 */
+        grid-row-gap: 4.270833333vw;
+        /* モバイル用の行間の間隔 */
+        grid-column-gap: 4.270833333vw;
+        /* モバイル用の列間の間隔 */
+    }
 }
 
 
 /* 画像サイズの調整--------- */
 @media (min-width: 1200px) {
-  .work_list_item_img {
-    width: 100%;
-    height: auto;
-  }
+    .work_list_item_img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* モバイル用（幅が393px以下） */
 @media (max-width: 393px) {
-  .work_list_item_img {
-    width: 100%;
-    height: auto;
-  }
+    .work_list_item_img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 
 
 /* font-sizeのレスポンシブ設定------------------------ */
-@media screen and (min-width : 1025px){
-    .btn{
+@media screen and (min-width : 1025px) {
+    .btn {
 
-font-size: 24px;
-font-weight: 600;
+        font-size: 24px;
+        font-weight: 600;
     }
 
-     .d_p_sub {
+    .d_p_sub {
         font-size: 20px;
         margin-top: 18px;
     }
@@ -476,13 +530,13 @@ font-weight: 600;
 
 
 @media screen and (max-width : 393px) {
-    .btn{
+    .btn {
         font-size: 12px;
         font-weight: 600;
     }
-     .d_p_sub {
+
+    .d_p_sub {
         font-size: 12px;
         margin-top: 12px;
     }
 }
-
