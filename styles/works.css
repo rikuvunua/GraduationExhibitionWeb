@@ -238,6 +238,7 @@ body {
     background-color: rgba(255, 255, 255, 0.8);
     margin-top: 2.1875vw;
     padding: 3.2292vw;
+    z-index: 100;
 }
 
 

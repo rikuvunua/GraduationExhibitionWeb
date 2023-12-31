@@ -20,14 +20,6 @@ body {
     /* 35pxに相当 */
     padding-right: 2.1875rem;
     /* 35pxに相当 */
-
-    background-image: url('../assets/images/grade1.png');
-    background-size: cover;
-    /* 画像を要素に合わせてカバーする */
-    background-position: center;
-    /* 画像を要素の中央に配置 */
-    background-repeat: no-repeat;
-    /* 画像を繰り返し表示しない */
 }
 
 /* デスクトップ用のスタイル */
