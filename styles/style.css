@@ -238,6 +238,17 @@ a {
     .ring-mobile {
         display: none;
     }
+
+    /* section-04 */
+    .ring-03 {
+        left: -10vw;
+        bottom: -20vh;
+    }
+
+    .ring-04 {
+        left: 75vw;
+        bottom: 30vh;
+    }
 }
 
 @media screen and (max-width : 1024px) {
