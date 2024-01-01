@@ -7,6 +7,7 @@ html {
 }
 
 body {
+    background-color: #DEDEDE;
     scroll-snap-type: y mandatory;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -32,7 +33,6 @@ a {
 .section {
     position: relative;
     scroll-snap-align: start;
-    background-color: #DEDEDE;
     height: 100vh;
     width: 100%;
 }
@@ -45,7 +45,7 @@ a {
     background-color: #9DBBAE;
 } */
 
-.section-04 {
+/* .section-04 {
     background-color: #188FA7;
 }
 
@@ -59,7 +59,7 @@ a {
 
 .section-07 {
     background-color: #188FA7;
-}
+} */
 
 /* fade-in */
 .fade-in {
@@ -172,7 +172,7 @@ a {
     .section-03 .professor:nth-child(odd) {
         transform: translateY(-10%);
     }
-    
+
     .section-03 .professor:nth-child(even) {
         transform: translateY(10%);
     }
@@ -181,10 +181,11 @@ a {
         position: relative;
         margin-top: 10vh;
     }
-    
+
     .professor {
         display: inline-block;
         margin: 15px;
+        z-index: 100;
     }
 
     .professor-img {
@@ -203,8 +204,39 @@ a {
         margin: 0;
     }
 
-    .professor-05 img{
+    .alphabet {
+        font-size: 14px;
+    }
+
+    .professor-05 img {
         max-width: 220px;
+    }
+
+    .ring {
+        position: absolute;
+        z-index: 0;
+    }
+
+    .ring-01 {
+        left: -12vw;
+        bottom: -20vh;
+    }
+
+    .ring-02 {
+        left: 62vw;
+        bottom: 0vh;
+    }
+
+    .section-title {
+        display: none;
+    }
+
+    .text-mobile {
+        display: none;
+    }
+
+    .ring-mobile {
+        display: none;
     }
 }
 
@@ -246,7 +278,7 @@ a {
     }
 
     .menu-bar {
-        opacity: 0;
+        display: none;
     }
 
     .date {
@@ -283,4 +315,104 @@ a {
         margin-left: 2vw;
         width: 72vw;
     }
+
+    /* section-03 */
+    .section-03 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        padding: 0 15vw;
+    }
+
+    .section-title {
+        text-align: left;
+        width: 100%;
+        margin-top: 5vh;
+        margin-bottom: 6.5vh;
+    }
+
+    .section-title::after {
+        margin-left: 0;
+        width: 35%;
+    }
+
+    .professor {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 3.5vh;
+    }
+
+    .professor-img {
+        width: 18vw;
+        height: 18vw;
+        object-fit: cover;
+    }
+
+    .professor-info {
+        text-align: left;
+    }
+
+    .professor-name {
+        display: flex;
+        justify-content: start;
+        align-items: baseline;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        background: linear-gradient(to right, #EA5513, #2CA6E0);
+        background-size: 100% 2px;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    .professor-name h2 {
+        margin-right: 10px;
+        font-size: 18px;
+    }
+
+    .professor-name p {
+        font-size: 16px;
+    }
+
+    .alphabet {
+        font-size: 12px !important;
+    }
+
+    .text-desktop {
+        display: none;
+    }
+
+    .text-mobile {
+        font-size: 10px;
+    }
+
+    .professor-name,
+    .text-mobile {
+        margin-left: 4vw;
+    }
+
+    .ring {
+        position: absolute;
+        z-index: -10;
+    }
+
+    .ring-desktop {
+        display: none;
+    }
+
+    .ring-01 {
+        left: -35vw;
+        bottom: -12vh;
+    }
+
+    .ring-02 {
+        width: 60vw;
+        top: 10vh;
+        right: 0;
+    }
+
 }
