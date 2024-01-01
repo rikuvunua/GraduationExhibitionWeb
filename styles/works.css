@@ -1,17 +1,17 @@
 /*共通CSS-------------------------------------------------------------------------------*/
 
-html{
-    background-image:url('../assets/images/sumaho-haikei.png') ;
+html {
+    background-image: url('../assets/images/sumaho-haikei.png');
 }
 
 body {
-   margin: 0;
-   padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-.container{
+.container {
     margin: 0;
-   padding: 0;
+    padding: 0;
 }
 
 
@@ -21,140 +21,168 @@ body {
     z-index: 50;
     position: relative;
     width: 100%;
-    height: 100vh; /* 画面の高さの倍数に調整 */
-    padding-left: 2.1875rem; /* 35pxに相当 */
-  padding-right: 2.1875rem; /* 35pxに相当 */
-  padding-top: 160px;
+    height: 100vh;
+    /* 画面の高さの倍数に調整 */
+    padding-left: 2.1875rem;
+    /* 35pxに相当 */
+    padding-right: 2.1875rem;
+    /* 35pxに相当 */
+    padding-top: 160px;
 
-    
-    background-image: url('../assets/images/grade1.png'); 
-    background-size: cover; /* 画像を要素に合わせてカバーする */
-    background-position: center; /* 画像を要素の中央に配置 */
-    background-repeat: no-repeat; /* 画像を繰り返し表示しない */
+
+    background-image: url('../assets/images/grade1.png');
+    background-size: cover;
+    /* 画像を要素に合わせてカバーする */
+    background-position: center;
+    /* 画像を要素の中央に配置 */
+    background-repeat: no-repeat;
+    /* 画像を繰り返し表示しない */
 }
 
 /* モバイル用のスタイル */
 @media (min-width: 844px) {
-  .section-01{
-    padding-left: 6.75rem; /* 108pxに相当 */
-    padding-right: 6.75rem; /* 108pxに相当 */
-    padding-top: 160px;
-  }
+    .section-01 {
+        padding-left: 6.75rem;
+        /* 108pxに相当 */
+        padding-right: 6.75rem;
+        /* 108pxに相当 */
+        padding-top: 160px;
+    }
 }
 
 .background2 {
     z-index: 0;
     position: relative;
-    height: 1080vh; /* 画面の高さの倍数に調整 */
-     
-    
-    background-image: url('../assets/images/haikei2.png'); 
-    background-size: cover; /* 画像を要素に合わせてカバーする */
-    background-position: center; /* 画像を要素の中央に配置 */
-    background-repeat: no-repeat; /* 画像を繰り返し表示しない */
+    height: 1080vh;
+    /* 画面の高さの倍数に調整 */
+
+
+    background-image: url('../assets/images/haikei2.png');
+    background-size: cover;
+    /* 画像を要素に合わせてカバーする */
+    background-position: center;
+    /* 画像を要素の中央に配置 */
+    background-repeat: no-repeat;
+    /* 画像を繰り返し表示しない */
 }
 
 @media (max-width: 844px) {
+
     /* スマートフォン画面において適用されるスタイル */
     .background2 {
         height: 812vh;
-        background-image: transparent; /* スマートフォン用の背景画像 */
-   
+        background-image: transparent;
+        /* スマートフォン用の背景画像 */
+
     }
-    
+
 }
 
-.footer_img{
- position: relative;
+.footer_img {
+    position: relative;
     width: 100%;
-    height: 100vh; /* 画面の高さの倍数に調整 */
-    
-    
-    background-image: url('../assets/images/foot.png'); 
-    background-size: cover; /* 画像を要素に合わせてカバーする */
-    background-position: center; /* 画像を要素の中央に配置 */
-    background-repeat: no-repeat; /* 画像を繰り返し表示しない */
+    height: 100vh;
+    /* 画面の高さの倍数に調整 */
+
+
+    background-image: url('../assets/images/foot.png');
+    background-size: cover;
+    /* 画像を要素に合わせてカバーする */
+    background-position: center;
+    /* 画像を要素の中央に配置 */
+    background-repeat: no-repeat;
+    /* 画像を繰り返し表示しない */
 }
 
 @media (max-width: 844px) {
+
     /* スマートフォン画面において適用されるスタイル */
     .footer_img {
         height: 70vh;
-         background-size: 100%;
-          background-repeat: no-repeat;
-        background-image: url('../assets/images/m_foot.png'); /* スマートフォン用の背景画像 */
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-image: url('../assets/images/m_foot.png');
+        /* スマートフォン用の背景画像 */
     }
-    
+
 }
 
-.insta{
+.insta {
     width: 2%;
-    position: absolute; /* 位置の指定に必要 */
+    position: absolute;
+    /* 位置の指定に必要 */
     top: 1187vh;
     left: 16vh;
 }
 
 @media (max-width: 844px) {
+
     /* スマートフォン画面において適用されるスタイル */
     .insta {
         top: 918vh;
         left: 6vh;
         width: 6%;
     }
-    
+
 }
 
-.twitter{
+.twitter {
     width: 2%;
-    position: absolute; /* 位置の指定に必要 */
+    position: absolute;
+    /* 位置の指定に必要 */
     top: 1187vh;
     left: 22vh;
 }
 
 @media (max-width: 844px) {
+
     /* スマートフォン画面において適用されるスタイル */
     .twitter {
         top: 918vh;
         left: 10vh;
         width: 6%;
     }
-    
+
 }
 
 
-.mauhp{
+.mauhp {
     width: 13%;
-    position: absolute; /* 位置の指定に必要 */
+    position: absolute;
+    /* 位置の指定に必要 */
     top: 1200vh;
     left: 16vh;
 }
 
 @media (max-width: 844px) {
+
     /* スマートフォン画面において適用されるスタイル */
     .mauhp {
         top: 925vh;
         left: 6vh;
         width: 33%;
     }
-    
+
 }
 
 
-.dejohp{
+.dejohp {
     width: 15%;
-    position: absolute; /* 位置の指定に必要 */
+    position: absolute;
+    /* 位置の指定に必要 */
     top: 1206vh;
     left: 16vh;
 }
 
 @media (max-width: 844px) {
+
     /* スマートフォン画面において適用されるスタイル */
     .dejohp {
         top: 928vh;
         left: 6vh;
         width: 38%;
     }
-    
+
 }
 
 /*共通終了-------------------------------------------------------------------------------*/
@@ -165,53 +193,58 @@ body {
     display: flex;
     align-items: center;
     margin-left: 66px;
-    border-bottom:solid 3px;
+    border-bottom: solid 3px;
     min-width: 120px;
     padding-bottom: 12px;
 }
 
 @media screen and (max-width : 430px) {
     .backlink_wrapper {
-    
-    margin-left: 15px;
-}
+
+        margin-left: 15px;
+    }
 }
 
 
 
 .arrow_left {
-  position: relative;
-  display: inline-block;
-  margin-right:36px ;
-}
- 
-.arrow_left::before { /* くの字の表示設定 */
-  content: "";
-  margin: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: -17px; /* 要素の右からの距離 */
-  width: 12px;
-  height: 12px;
-  border-top: 2px solid black;
-  border-right: 2px solid black;
-  transform: rotate(225deg); /* 角度調整 */
-}
- 
-.arrow_left::after { /* 棒の表示設定 */
-  content: "";
-  margin: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: -23px; /* 要素の右からの距離 */
-  width: 20px;
-  height: 2px;
-  background: black;
+    position: relative;
+    display: inline-block;
+    margin-right: 36px;
 }
 
-.work_wrapper{
+.arrow_left::before {
+    /* くの字の表示設定 */
+    content: "";
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -17px;
+    /* 要素の右からの距離 */
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    transform: rotate(225deg);
+    /* 角度調整 */
+}
+
+.arrow_left::after {
+    /* 棒の表示設定 */
+    content: "";
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -23px;
+    /* 要素の右からの距離 */
+    width: 20px;
+    height: 2px;
+    background: black;
+}
+
+.work_wrapper {
     width: 100%;
     height: auto;
     background-color: rgba(255, 255, 255, 0.8);
@@ -223,73 +256,68 @@ body {
 
 
 @media screen and (max-width : 430px) {
-    
-.work_wrapper{
-    margin-top: 6.107vw;
-    padding-top: 6.9767vw;
-    padding-bottom:  6.9767vw;
-    padding-left: 3.4884vw;
-    padding-right: 3.4884vw;
+
+    .work_wrapper {
+        margin-top: 6.107vw;
+        padding-top: 6.9767vw;
+        padding-bottom: 6.9767vw;
+        padding-left: 3.4884vw;
+        padding-right: 3.4884vw;
+    }
 }
-}
-
-
-
 
 
 /*スライドショー（slick）-------------------------------------------------------------------------------*/
 
 .slide-items {
     position: relative;
-  width: 100%;
-  display: flex;
-  margin-top: 2.1875rem;
-
+    width: 100%;
+    display: flex;
+    margin-top: 2.1875rem;
 
 }
 
 .slide-items li {
 
     width: 100%;
-   /* スライド間のスペースを調整 */
-  transition: transform 0.3s ease;
-  margin-right: 42px;
-  max-width: 420px;
-  
+    /* スライド間のスペースを調整 */
+    transition: transform 0.3s ease;
+    margin-right: 42px;
+    max-width: 420px;
+
 }
 
 .slide-items img {
-  width: 420px;
-  height: 420px;
-  min-width: 120px;
-  min-height: 120px;
+    width: 420px;
+    height: 420px;
+    min-width: 120px;
+    min-height: 120px;
 
 }
 
-
-
 .slick-dots {
-  position: relative;
-  max-width: 120px;
+    position: relative;
+    max-width: 120px;
 }
 
 @media screen and (max-width : 430px) {
     .slide-items img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+    }
+
+    .slide-items {
+        margin-top: 1.5rem;
+    }
 }
-.slide-items{
-    margin-top: 1.5rem;
-}
-}
-  
+
 .slick-next,
 .slick-prev {
-  display: none !important;
-}  
+    display: none !important;
+}
 
-.works_introduction_p{
+.works_introduction_p {
     position: relative;
     margin-top: 5rem;
     max-width: 971px;
@@ -297,36 +325,37 @@ body {
 }
 
 @media screen and (max-width : 430px) {
- .works_introduction_p{
-   margin-top: 2.5rem;
-   margin-bottom: 2.5rem;
- }
+    .works_introduction_p {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
 
 }
 
-.tag_section{
- margin-top: 32px;
+.tag_section {
+    margin-top: 32px;
 
 }
 
-.tag_section p{
+.tag_section p {
     max-width: 971px;
 }
 
 
-.h2_genre_title_wrapper{
-   border-bottom:solid 4px;
-   position: relative;
-         margin-bottom: 32px;
+.h2_genre_title_wrapper {
+    border-bottom: solid 4px;
+    position: relative;
+    margin-bottom: 32px;
 }
 
 @media (max-width: 844px) {
 
-   .h2_genre_title_wrapper {
-      border-bottom:solid 2px;
-      margin-bottom: 20px;
+    .h2_genre_title_wrapper {
+        border-bottom: solid 2px;
+        margin-bottom: 20px;
     }
-    .tag_section{
+
+    .tag_section {
         margin-top: 20px;
 
     }
@@ -334,7 +363,7 @@ body {
 }
 
 
-.h2_genre_title{
+.h2_genre_title {
     position: relative;
     color: white;
     background-color: black;
@@ -348,62 +377,62 @@ body {
 
 @media (max-width: 844px) {
 
-   .h2_genre_title {
-    background-color: black;
-    padding: 8px 0px 8px 12px;
-    margin-right: 132px;
-    min-width: 142px;
- 
+    .h2_genre_title {
+        background-color: black;
+        padding: 8px 0px 8px 12px;
+        margin-right: 132px;
+        min-width: 142px;
+
     }
 
 }
 
-.tag_section ul{
+.tag_section ul {
     display: flex;
     white-space: nowrap;
     width: 100%;
-height: auto;
-  flex-wrap: wrap;
+    height: auto;
+    flex-wrap: wrap;
 
-  padding: 0;
-  list-style: none;
-    
+    padding: 0;
+    list-style: none;
+
 }
 
-.tag_section li{
+.tag_section li {
     margin-right: 12px;
 
-  box-sizing: border-box;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-     
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
 }
 
-.tag_section img{
+.tag_section img {
     margin-top: 32px;
 }
 
 @media screen and (max-width : 430px) {
-   .tag_section img{
-    margin-top: 20px;
-   }
+    .tag_section img {
+        margin-top: 20px;
+    }
 }
 
-.tag_section_author_introduction{
+.tag_section_author_introduction {
     margin-top: 12px;
 }
 
-    
-/* font-sizeのレスポンシブ設定------------------------ */
-@media screen and (min-width : 1025px){
-    .btn{
 
-font-size: 24px;
-font-weight: 600;
+/* font-sizeのレスポンシブ設定------------------------ */
+@media screen and (min-width : 1025px) {
+    .btn {
+
+        font-size: 24px;
+        font-weight: 600;
     }
 
-     .d_p_sub {
+    .d_p_sub {
         font-size: 20px;
         margin-top: 18px;
     }
@@ -413,13 +442,13 @@ font-weight: 600;
 
 
 @media screen and (max-width : 430px) {
-    .btn{
+    .btn {
         font-size: 12px;
         font-weight: 600;
     }
-     .d_p_sub {
+
+    .d_p_sub {
         font-size: 12px;
         margin-top: 12px;
     }
 }
-

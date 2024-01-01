@@ -249,6 +249,24 @@ a {
         left: 75vw;
         bottom: 30vh;
     }
+
+    .carousel {
+        width: 1060px;
+        height: 410px;
+        margin: auto;
+        position: relative;
+    }
+
+    .carousel img {
+        width: 820px;
+        height: 410px;
+        margin-right: 3vw;
+    }
+
+    .image-01 {
+        margin-left: 3vw;
+    }
+
 }
 
 @media screen and (max-width : 1024px) {

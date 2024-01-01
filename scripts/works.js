@@ -16,3 +16,4 @@ $(".slide-items").slick({
     },
   ],
 });
+
