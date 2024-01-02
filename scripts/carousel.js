@@ -6,5 +6,15 @@ $('.carousel').slick({
     autoplay: true,
     autoplaySpeed: 3000,
     initialSlide: 0,
-    variableWidth: true
+    variableWidth: true,
+
+    responsive: [
+        {
+          breakpoint: 1024, // モバイルのブレークポイント
+          settings: {
+            slidesToShow: 2, // モバイル時の表示枚数
+          },
+        },
+      ],
 });
+

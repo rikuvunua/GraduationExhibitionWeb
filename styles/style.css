@@ -155,10 +155,6 @@ a {
         margin-bottom: 5vh;
     }
 
-    .text-container p {
-        margin-left: 1vw;
-    }
-
     /* section-03 */
     .section-03 {
         display: flex;
@@ -240,6 +236,29 @@ a {
     }
 
     /* section-04 */
+    .section-04 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .text-container-04 {
+        display: flex;
+        flex-basis: 23%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 2vw;
+        margin-top: -3vh;
+    }
+
+    .text-container-04 h1 {
+        position: relative;
+        display: inline-block;
+        margin-bottom: 5vh;
+    }
+
     .ring-03 {
         left: -10vw;
         bottom: -20vh;
@@ -251,22 +270,30 @@ a {
     }
 
     .carousel {
-        width: 1060px;
-        height: 410px;
-        margin: auto;
-        position: relative;
+        width: 55vw;
+        height: 17vw;
     }
 
     .carousel img {
-        width: 820px;
-        height: 410px;
-        margin-right: 3vw;
+        width: 17vw;
+        height: 17vw;
+        margin-right: 2vw;
     }
 
-    .image-01 {
-        margin-left: 3vw;
+    .link {
+        position: relative;
+        align-items: center;
+        cursor: pointer;
+        margin-top: 7.5vh;
     }
 
+    .link .btn {
+        margin-right: 7.5px;
+    }
+
+    .container-mobile {
+        display: none;
+    }
 }
 
 @media screen and (max-width : 1024px) {
@@ -443,5 +470,68 @@ a {
         top: 10vh;
         right: 0;
     }
+
+    /* section-04 */
+    .section-04 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container-mobile {
+        margin-top: 12vh;
+    }
+
+    .text-container-04 {
+        margin-bottom: 7.5vh;
+    }
+
+    .carousel {
+        width: 100%;
+        height: auto;
+    }
+
+    .carousel img {
+        width: 60vw;
+        height: 60vw;
+        margin-right: 2vw;
+    }
+
+    .content {
+        margin-top: 7.5vh;
+    }
+
+    .link-container {
+        position: relative;
+        display: flex;
+        margin-top: 7.5vh;
+        justify-content: flex-end;
+    }
+    
+    .link-container p {
+        margin-right: 5px;
+    }
+
+    .link img{
+        margin-top: 2px;
+        max-width: 12px;
+        max-height: 12px;
+    }
+
+    .container-desktop {
+        display: none;
+    }
+
+    .ring-03 {
+        left: -30vw;
+        bottom: -10vh;
+    }
+
+    .ring-04 {
+        right: 0vh;
+        top: 10vh;
+    }
+    
 
 }
