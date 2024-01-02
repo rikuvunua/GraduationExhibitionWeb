@@ -250,7 +250,7 @@ a {
         flex-direction: column;
         align-items: flex-start;
         margin-left: 2vw;
-        margin-top: -3vh;
+        margin-top: -2vh;
     }
 
     .text-container-04 h1 {
@@ -294,6 +294,44 @@ a {
     .container-mobile {
         display: none;
     }
+
+    /* section-05 */
+    .section-05 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .ring-05 {
+        left: -10vw;
+        bottom: -30vh;
+    }
+
+    .ring-06 {
+        right: -20vw;
+        top: 20vh;
+    }
+
+    .map-container {
+        width: 47.5vw;
+        margin-top: 7.5vh;
+    }
+
+    .map-link {
+        position: absolute;
+        right: 10vw;
+        bottom: 20vh;
+    }
+
+    .text-container-05 {
+        display: none;
+    }
+
+    .map-mobile {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width : 1024px) {
@@ -309,8 +347,12 @@ a {
     .main-container {
         width: 75%;
         margin: 0 auto;
-        margin-top: 62.5vh;
+        margin-top: 12.5vh;
         z-index: 10;
+    }
+
+    .container-margin {
+        margin-top: 62.5vh;
     }
 
     .visual-container {
@@ -498,14 +540,10 @@ a {
         margin-right: 2vw;
     }
 
-    .content {
-        margin-top: 7.5vh;
-    }
-
     .link-container {
         position: relative;
         display: flex;
-        margin-top: 7.5vh;
+        margin-top: 12.5vh;
         justify-content: flex-end;
     }
     
@@ -529,9 +567,50 @@ a {
     }
 
     .ring-04 {
-        right: 0vh;
+        right: 0vw;
         top: 10vh;
     }
     
+    /* section-05 */
+    .section-05 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .map-container {
+        width: 75vw;
+        margin-top: 10vh;
+    }
+
+    .ring-05 {
+        left: -40vw;
+        bottom: -15vh;
+    }
+
+    .ring-06 {
+        right: 0vw;
+        top: 25vh;
+    }
+
+    .map-link {
+        left: 37.5vw !important;
+    }
+
+    .link-container-05 {
+        position: relative;
+        display: flex;
+        margin-top: 12.5vh;
+        justify-content: flex-end;
+    }
+    
+    .link-container-05 p {
+        margin-right: 5px;
+    }
+
+    .map-desktop {
+        display: none;
+    }
 
 }
