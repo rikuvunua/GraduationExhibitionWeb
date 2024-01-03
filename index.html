@@ -19,6 +19,12 @@
     <link rel="stylesheet" href="styles/font.css">
     <link rel="stylesheet" href="styles/gradient.css">
 
+    <!-- The callback parameter is required, so we use console.debug as a noop -->
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdBYWAB7LNjCFCoVrVz65kP_5t9RyRFBs&callback=console.debug&libraries=maps,marker&v=beta">
+        </script>
+
+
 </head>
 
 <header class="header">
@@ -299,10 +305,70 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="section section-06">
+            <img src="assets/images/rings/ring_desktop_07.png" alt="" class="ring ring-desktop ring-07">
+            <img src="assets/images/rings/ring_desktop_08.png" alt="" class="ring ring-desktop ring-08">
+            <img src="assets/images/rings/ring_mobile_07.png" alt="" class="ring ring-mobile ring-07">
+            <img src="assets/images/rings/ring_mobile_08.png" alt="" class="ring ring-mobile ring-08">
+
+            <div class="main-container container-desktop-06">
+                <div class="text-container-04">
+                    <h1>開催概要</h1>
+                    <p class="content">
+                    <h2>開催日時</h2>
+                    <p>2024.1.12(金)~1.15(月)<br>
+                        9:00〜17:00<br></p>
+                    <h2 class="place">会場場所</h2>
+                    <p>武蔵野美術大学 鷹の台キャンパス<br>
+                        〒187-8505 東京都小平市小川町1-736<br>
+                    </p>
+                    </p>
+                    <div class="link">
+                        <p class="btn">Google Mapで確認する</p>
+                        <img src="assets/images/external_link.png" alt="">
+                    </div>
+                </div>
+
+                <gmp-map center="35.726356506347656,139.44696044921875" zoom="16" map-id="1d3c518a0162f306" id="map"
+                    class="google-map">
+                    <gmp-advanced-marker position="35.726356506347656,139.44696044921875" title="My location">
+                    </gmp-advanced-marker>
+                </gmp-map>
+            </div>
+
+            <div class="main-container container-mobile">
+                <div class="text-container-04">
+                    <h1>開催概要</h1>
+                </div>
+                <gmp-map center="35.726356506347656,139.44696044921875" zoom="16" map-id="1d3c518a0162f306" id="map"
+                    class="google-map">
+                    <gmp-advanced-marker position="35.726356506347656,139.44696044921875" title="My location">
+                    </gmp-advanced-marker>
+                </gmp-map>
+
+                <div class="text-container-04">
+                    <p class="content">
+                    <h2>開催日時</h2>
+                    <p>2024.1.12(金)~1.15(月)<br>
+                        9:00〜17:00<br></p>
+                    <h2 class="place">会場場所</h2>
+                    <p>武蔵野美術大学 鷹の台キャンパス<br>
+                        〒187-8505 東京都小平市小川町1-736<br>
+                    </p>
+                    </p>
+                    <div class="link googlemap-link">
+                        <div class="link-container">
+                            <p class="btn">Google Mapで確認する</p>
+                            <img src="assets/images/external_link.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
-        <div class="section section-06">6</div>
         <div class="section section-07">7</div>
     </div>
 
@@ -313,7 +379,6 @@
     <script type="text/javascript" src="scripts/script.js"></script>
     <script type="text/javascript" src="scripts/common.js"></script>
     <script type="text/javascript" src="scripts/carousel.js"></script>
-
 </body>
 
 </html>
