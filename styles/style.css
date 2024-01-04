@@ -414,6 +414,72 @@ a {
         display: none;
     }
 
+    /* section-08 */
+    .section-08 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        z-index: 999;
+    }
+
+    .mask {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 0;
+    }
+
+    .footer-icon {
+        position: relative;
+        display: flex;
+        top: 10vh;
+        left: 10vw;
+        z-index: 100;
+        filter: invert(100);
+    }
+
+    .footer-icon img {
+        width: 30px;
+    }
+
+    .icon-x {
+        left: 20px;
+    }
+    
+    .footer-link {
+        position: relative;
+        display: flex;
+        z-index: 100;
+        margin-bottom: 1vh;
+        top: 15vh;
+        left: 10vw;
+        cursor: pointer;
+    }
+
+    .footer-link p {
+        color: #fff;
+    }
+
+    .footer-link img {
+        position: relative;
+        filter: invert(100);
+        width: 20px;
+        height: 20px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .footer-copyright {
+        position: relative;
+        display: flex;
+        left: 10vw;
+        top: -15vh;
+        z-index: 100;
+        color: #fff;
+    }
+
 }
 
 @media screen and (max-width : 1024px) {
@@ -776,6 +842,74 @@ a {
 
     .text-margin-07 {
         margin-left: 5vw;
+    }
+
+    /* section-08 */
+    .section-08 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        z-index: 100;
+    }
+
+    .mask {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 0;
+    }
+
+    .footer-container {
+        margin-top: 5vh;
+    }
+
+    .footer-icon {
+        display: flex;
+        margin-top: 47.5vh;
+        margin-left: 12.5vw;
+        z-index: 100;
+        filter: invert(100);
+    }
+
+    .footer-icon img {
+        width: 20px;
+    }
+
+    .icon-x {
+        left: 5px;
+    }
+
+    .footer-link {
+        display: flex;
+        z-index: 100;
+        margin-bottom: 1vh;
+        margin-left: 12.5vw;
+    }
+
+    .footer-link-01 {
+        margin-top: 2vh;
+    }
+
+    .footer-link p {
+        color: #fff;
+    }
+
+    .footer-link img {
+        position: relative;
+        filter: invert(100);
+        width: 10px;
+        height: 10px;
+        top: 5px;
+        left: 5px;
+    }
+
+    .footer-copyright {
+        color: #fff;
+        z-index: 100;
+        margin-left: 12.5vw;
+        margin-top: 2vh;
     }
 
 }
