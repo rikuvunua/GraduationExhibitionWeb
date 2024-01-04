@@ -7,7 +7,6 @@
     top: 2vh;
     right: 5vw;
     overflow: hidden;
-    z-index: 10;
 }
 
 .drawer-hidden {
