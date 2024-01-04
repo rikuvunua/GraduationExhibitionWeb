@@ -178,6 +178,8 @@ body {
     }
 }
 
+/* 9号館 */
+
 .black-rectangle {
     background-color: #000; /* 黒い長方形の背景色を設定 */
     padding: 8px; 
@@ -275,6 +277,9 @@ body {
     }
 }
 
+
+/* 3階開始 */
+
 .black-rectangle2{
     background-color: #000; /* 黒い長方形の背景色を設定 */
     padding: 5px; 
@@ -296,7 +301,7 @@ body {
 
 }
 
-.white-text-9 {
+.white-text-3 {
     color: #fff; /* 白い文字の色を設定 */
     margin: 0; /* マージンをリセット */
 }
@@ -306,7 +311,7 @@ body {
     bottom: -88.5vh; /* ボーダーの位置を調整する値（任意の値） */
     width: 4px;
     margin-left: 11.5vw;
-    border-bottom: solid 1150px black;
+    border-bottom: solid 1180px black;
 }
 
 @media (max-width: 844px) {
@@ -315,7 +320,7 @@ body {
     bottom: -87.5vh;
     width: 2px;
     margin-left: 15vw;
-    border-bottom: solid 700px black;
+    border-bottom: solid 800px black;
     }
 }
 
@@ -920,6 +925,7 @@ body {
 
 }
 
+
 .ev3{
    position: absolute;
    margin-left: 14vw;
@@ -933,22 +939,980 @@ body {
     }
 }
 
+.di20038{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 191vh;
+}
+.di20038 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20038 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20038 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 169vh;
+    }
+    .di20038 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20038 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di20049{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 195vh;
+}
+.di20049 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20049 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20049 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 172vh;
+    }
+    .di20049 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20049 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
 
 
+/* 4階開始 */
+
+.black-rectangle3{
+    background-color: #000; /* 黒い長方形の背景色を設定 */
+    padding: 5px; 
+    padding-left: 20px;
+    position: absolute;
+    top:205vh;
+    margin-left: 10vw;
+    width: 62px;
+    height: 39px;
+}
+
+@media (max-width: 844px) {
+    .black-rectangle3{
+    width: 54px;
+    height: 27px;
+    top: 177vh;
+    margin-left: 2.550rem;
+    }
+
+}
 
 
+.line-2{
+  position: relative; /* 相対位置指定 */
+    bottom: -98.5vh; /* ボーダーの位置を調整する値（任意の値） */
+    width: 4px;
+    margin-left: 11.5vw;
+    border-bottom: solid 1590px black;
+}
 
+@media (max-width: 844px) {
+   .line-2 {
+    position: relative;
+    bottom: -93.5vh;
+    width: 2px;
+    margin-left: 15vw;
+    border-bottom: solid 1060px black;
+    }
+}
 
+.a402{
+   position: absolute;
+   margin-left: 14vw;
+   top: 210vh;
+}
+@media (max-width: 844px) {
+   .a402 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 181vh
+    }
+}
 
+.di20011{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 214vh;
+}
+.di20011 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
 
+.di20011 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
 
+@media (max-width: 844px) {
+   .di20011 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 184vh;
+    }
+    .di20011 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
 
+.di20011 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
 
+}
 
+.di20050{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 218vh;
+}
+.di20050 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
 
+.di20050 span:not(:first-child):not(:last-child) {
+    margin-right: 75px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
 
+@media (max-width: 844px) {
+   .di20050 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 187vh;
+    }
+    .di20050 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
 
+.di20050 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
 
+}
+
+.a403{
+   position: absolute;
+   margin-left: 14vw;
+   top: 223vh;
+}
+@media (max-width: 844px) {
+   .a403 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 191vh
+    }
+}
+
+.di20054{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 228vh;
+}
+.di20054 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20054 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20054 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 194vh;
+    }
+    .di20054 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20054 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di20052{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 232vh;
+}
+.di20052 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20052 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20052 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 200vh;
+    }
+    .di20052 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20052 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.a404{
+   position: absolute;
+   margin-left: 14vw;
+   top: 237vh;
+}
+@media (max-width: 844px) {
+   .a404 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 204vh
+    }
+}
+
+.di20008{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 241vh;
+}
+.di20008 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20008 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20008 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 207vh;
+    }
+    .di20008 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20008 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.a405{
+   position: absolute;
+   margin-left: 14vw;
+   top: 246vh;
+}
+@media (max-width: 844px) {
+   .a405 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 211vh
+    }
+}
+
+.di20067{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 251vh;
+}
+.di20067 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20067 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20067 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 214vh;
+    }
+    .di20067 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20067 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.a409{
+   position: absolute;
+   margin-left: 14vw;
+   top: 256vh;
+}
+@media (max-width: 844px) {
+   .a409 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 219vh
+    }
+}
+
+.di20003{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 260vh;
+}
+.di20003 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20003 span:not(:first-child):not(:last-child) {
+    margin-right: 75px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20003 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 222vh;
+    }
+    .di20003 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20003 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di20039{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 264vh;
+}
+.di20039 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20039 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20039 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 225vh;
+    }
+    .di20039 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20039 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di20070{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 268vh;
+}
+.di20070 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20070 span:not(:first-child):not(:last-child) {
+    margin-right: 75px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20070 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 228vh;
+    }
+    .di20070 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20070 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di19055{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 272vh;
+}
+.di19055 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di19055 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di19055 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 231vh;
+    }
+    .di19055 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di19055 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di20026{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 276vh;
+}
+.di20026 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20026 span:not(:first-child):not(:last-child) {
+    margin-right: 35px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20026 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 234vh;
+    }
+    .di20026 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20026 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di18054{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 280vh;
+}
+.di18054 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di18054 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di18054 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 237vh;
+    }
+    .di18054 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di18054 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di20032{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 284vh;
+}
+.di20032 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20032 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20032 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 240vh;
+    }
+    .di20032 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20032 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di20040{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 288vh;
+}
+.di20040 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20040 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20040 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 243vh;
+    }
+    .di20040 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20040 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di20077{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 292vh;
+}
+.di20077 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20077 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20077 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 246vh;
+    }
+    .di20077 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20077 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di20034{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 296vh;
+}
+.di20034 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20034 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20034 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 249vh;
+    }
+    .di20034 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20034 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.ev4{
+   position: absolute;
+   margin-left: 14vw;
+   top: 301vh;
+}
+@media (max-width: 844px) {
+   .ev4 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 253vh
+    }
+}
+
+.di20002{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 305vh;
+}
+.di20002 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20002 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20002 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 256vh;
+    }
+    .di20002 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20002 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di21551{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 309vh;
+}
+.di21551 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di21551 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di21551 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 259vh;
+    }
+    .di21551 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di21551 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di19019{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 313vh;
+}
+.di19019 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di19019 span:not(:first-child):not(:last-child) {
+    margin-right: 75px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di19019 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 262vh;
+    }
+    .di19019 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di19019 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.a415{
+   position: absolute;
+   margin-left: 14vw;
+   top: 318vh;
+}
+@media (max-width: 844px) {
+   .a415 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 266vh
+    }
+}
+
+.di21552{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 322vh;
+}
+.di21552 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di21552 span:not(:first-child):not(:last-child) {
+    margin-right: 10px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di21552 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 269vh;
+    }
+    .di21552 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di21552 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di20031{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 326vh;
+}
+.di20031 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20031 span:not(:first-child):not(:last-child) {
+    margin-right: 35px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20031 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 272vh;
+    }
+    .di20031 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20031 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di20017{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 330vh;
+}
+.di20017 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20017 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20017 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 275vh;
+    }
+    .di20017 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20017 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di20019{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 334vh;
+}
+.di20019 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20019 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20019 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 278vh;
+    }
+    .di20019 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20019 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di20009{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 338vh;
+}
+.di20009 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20009 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20009 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 281vh;
+    }
+    .di20009 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20009 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di19070{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 342vh;
+}
+.di19070 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di19070 span:not(:first-child):not(:last-child) {
+    margin-right: 35px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di19070 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 284vh;
+    }
+    .di19070 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di19070 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di20074{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 346vh;
+}
+.di20074 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20074 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20074 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 287vh;
+    }
+    .di20074 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20074 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
+
+.di20041{
+     position: absolute;
+    margin-left: 16.3vw;
+    top: 350vh;
+}
+.di20041 span:not(:first-child) {
+    margin-left: 10px; /* 2番目以降の単語の左側のマージン */
+}
+
+.di20041 span:not(:first-child):not(:last-child) {
+    margin-right: 55px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+}
+
+@media (max-width: 844px) {
+   .di20041 {
+   position: absolute;
+    margin-left: 18vw;
+    top: 290vh;
+    }
+    .di20041 span:not(:first-child) {
+    margin-left: 5px; /* 2番目以降の単語の左側のマージン */
+    }
+
+.di20041 span:not(:first-child):not(:last-child) {
+    margin-right: 1px; /* 田中瞳と立体花鳥朝夕昼夜図の間の右側のマージン */
+    }
+
+}
 
 
 
