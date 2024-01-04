@@ -862,6 +862,7 @@ a {
 
     .footer-container {
         margin-top: 5vh;
+        z-index: 100;
     }
 
     .footer-icon {
