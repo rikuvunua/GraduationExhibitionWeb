@@ -1022,23 +1022,6 @@ body {
 }
 
 
-.line-2{
-  position: relative; /* 相対位置指定 */
-    bottom: -98.5vh; /* ボーダーの位置を調整する値（任意の値） */
-    width: 4px;
-    margin-left: 11.5vw;
-    border-bottom: solid 1590px black;
-}
-
-@media (max-width: 844px) {
-   .line-2 {
-    position: relative;
-    bottom: -93.5vh;
-    width: 2px;
-    margin-left: 15vw;
-    border-bottom: solid 1060px black;
-    }
-}
 
 .a402{
    position: absolute;
@@ -1923,7 +1906,7 @@ body {
     position: absolute;
     top:360vh;
     margin-left: 10vw;
-    width: 170px;
+    width: 190px;
     height: 39px;
 }
 
@@ -1938,23 +1921,7 @@ body {
 }
 
 
-.line-3{
-  position: relative; /* 相対位置指定 */
-    bottom: -106.5vh; /* ボーダーの位置を調整する値（任意の値） */
-    width: 4px;
-    margin-left: 11.5vw;
-    border-bottom: solid 80px black;
-}
 
-@media (max-width: 844px) {
-   .line-3 {
-    position: relative;
-    bottom: -97.5vh;
-    width: 2px;
-    margin-left: 15vw;
-    border-bottom: solid 50px black;
-    }
-}
 
 .di20012{
      position: absolute;
@@ -2009,23 +1976,7 @@ body {
 }
 
 
-.line-4{
-  position: relative; /* 相対位置指定 */
-    bottom: -114.5vh; /* ボーダーの位置を調整する値（任意の値） */
-    width: 4px;
-    margin-left: 11.5vw;
-    border-bottom: solid 150px black;
-}
 
-@media (max-width: 844px) {
-   .line-4 {
-    position: relative;
-    bottom: -101.5vh;
-    width: 2px;
-    margin-left: 15vw;
-    border-bottom: solid 90px black;
-    }
-}
 
 .di20033{
      position: absolute;
@@ -2495,7 +2446,7 @@ body {
     position: absolute;
     top:545vh;
     margin-left: 10vw;
-    width: 62px;
+    width: 80px;
     height: 39px;
 }
 
@@ -2509,23 +2460,6 @@ body {
 
 }
 
-.line-6{
-  position: relative; /* 相対位置指定 */
-    bottom: -235.5vh; /* ボーダーの位置を調整する値（任意の値） */
-    width: 4px;
-    margin-left: 11.5vw;
-    border-bottom: solid 200px black;
-}
-
-@media (max-width: 844px) {
-   .line-6 {
-    position: relative;
-    bottom: -175.5vh;
-    width: 2px;
-    margin-left: 15vw;
-    border-bottom: solid 140px black;
-    }
-}
 
 .di20028{
      position: absolute;
@@ -2650,7 +2584,7 @@ body {
     position: absolute;
     top:572vh;
     margin-left: 10vw;
-    width: 62px;
+    width: 80px;
     height: 39px;
 }
 
@@ -2664,23 +2598,7 @@ body {
 
 }
 
-.line-7{
-  position: relative; /* 相対位置指定 */
-    bottom: -243.5vh; /* ボーダーの位置を調整する値（任意の値） */
-    width: 4px;
-    margin-left: 11.5vw;
-    border-bottom: solid 150px black;
-}
 
-@media (max-width: 844px) {
-   .line-7 {
-    position: relative;
-    bottom: -180.5vh;
-    width: 2px;
-    margin-left: 15vw;
-    border-bottom: solid 90px black;
-    }
-}
 
 .di20001{
      position: absolute;
@@ -2790,23 +2708,7 @@ body {
 
 }
 
-.line-8{
-  position: relative; /* 相対位置指定 */
-    bottom: -252.5vh; /* ボーダーの位置を調整する値（任意の値） */
-    width: 4px;
-    margin-left: 11.5vw;
-    border-bottom: solid 80px black;
-}
 
-@media (max-width: 844px) {
-   .line-8 {
-    position: relative;
-    bottom: -185.5vh;
-    width: 2px;
-    margin-left: 15vw;
-    border-bottom: solid 40px black;
-    }
-}
 
 .di20066{
      position: absolute;
@@ -2876,7 +2778,7 @@ body {
     position: absolute;
     top: 619vh;
     margin-left: 12.5vw;
-    width: 38%;
+    width: 30%;
 }
 
 @media (max-width: 844px) {
@@ -2910,23 +2812,6 @@ body {
 
 }
 
-.line-9{
-  position: relative; /* 相対位置指定 */
-    bottom: -312.5vh; /* ボーダーの位置を調整する値（任意の値） */
-    width: 4px;
-    margin-left: 11.5vw;
-    border-bottom: solid 70px black;
-}
-
-@media (max-width: 844px) {
-   .line-9 {
-    position: relative;
-    bottom: -223.5vh;
-    width: 2px;
-    margin-left: 15vw;
-    border-bottom: solid 40px black;
-    }
-}
 
 .di20068{
      position: absolute;
@@ -2996,14 +2881,14 @@ body {
     position: absolute;
     top: 686vh;
     margin-left: 12.5vw;
-    width: 38%;
+    width: 18%;
 }
 
 @media (max-width: 844px) {
    .a14 {
     position: absolute;
     top: 506vh;
-    width: 81%;
+    width: 70%;
     margin-left: 2.550rem;
     }
 }
@@ -3030,23 +2915,7 @@ body {
 
 }
 
-.line-10{
-  position: relative; /* 相対位置指定 */
-    bottom: -428.5vh; /* ボーダーの位置を調整する値（任意の値） */
-    width: 4px;
-    margin-left: 11.5vw;
-    border-bottom: solid 110px black;
-}
 
-@media (max-width: 844px) {
-   .line-10 {
-    position: relative;
-    bottom: -343.5vh;
-    width: 2px;
-    margin-left: 15vw;
-    border-bottom: solid 70px black;
-    }
-}
 
 .di20058{
      position: absolute;
